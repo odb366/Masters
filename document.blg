@@ -1,0 +1,18 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
+The style file: plain.bst
+Database file #1: exmplref.bib
+Repeated entry---line 1166 of file exmplref.bib
+ : @article{norman1975data
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "wilson2015evaluation"
+Warning--I didn't find a database entry for "fawfa"
+Warning--I didn't find a database entry for "dawda"
+Warning--I didn't find a database entry for "dawwd"
+Warning--I didn't find a database entry for "the-cognitive-control-of-emotion"
+Warning--empty journal in broadbent1
+Warning--empty journal in broadbent2
+Warning--can't use both volume and number fields in byers1988workload
+Warning--there's a number but no series in chadwick2003web
+Warning--can't use both volume and number fields in wierwille1983validated
+(There was 1 error message)

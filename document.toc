@@ -1,0 +1,53 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Purpose of study}{5}
+\contentsline {section}{\numberline {1.2}Research questions}{6}
+\contentsline {section}{\numberline {1.3}Industry partner}{6}
+\contentsline {section}{\numberline {1.4}Structure of the thesis}{6}
+\contentsline {chapter}{\numberline {2}Literature review}{7}
+\contentsline {subsection}{\numberline {2.0.1}Usability and Web form filling}{8}
+\contentsline {section}{\numberline {2.1}Working Memory and Mental Workload}{8}
+\contentsline {subsection}{\numberline {2.1.1}Working memory models}{9}
+\contentsline {subsection}{\numberline {2.1.2}Measuring Mental Workload}{10}
+\contentsline {subsubsection}{Primary and secondary task mesures}{11}
+\contentsline {subsubsection}{Subjective measures}{11}
+\contentsline {subsubsection}{Psychophysical measures}{12}
+\contentsline {section}{\numberline {2.2}Brain sensing}{12}
+\contentsline {subsubsection}{PFC and arrousal and affect}{12}
+\contentsline {subsubsection}{Fnirs and mental workload}{12}
+\contentsline {subsubsection}{Galvanic skin and mental workload}{13}
+\contentsline {section}{\numberline {2.3}Studies on Emotion}{13}
+\contentsline {section}{\numberline {2.4}fNIRS and Emotional Valence}{13}
+\contentsline {section}{\numberline {2.5}Summary}{13}
+\contentsline {chapter}{\numberline {3}User study}{14}
+\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{14}
+\contentsline {section}{\numberline {3.2}Method}{14}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{14}
+\contentsline {subsection}{\numberline {3.2.2}Apparatus}{14}
+\contentsline {subsubsection}{Laptop computer}{14}
+\contentsline {subsubsection}{fNIRS}{14}
+\contentsline {subsubsection}{Empatica}{15}
+\contentsline {subsection}{\numberline {3.2.3}Materials}{15}
+\contentsline {subsubsection}{NASA TLX}{15}
+\contentsline {subsubsection}{SAM}{15}
+\contentsline {subsubsection}{Web forms}{15}
+\contentsline {subsubsection}{Video capture}{15}
+\contentsline {subsection}{\numberline {3.2.4}Design}{15}
+\contentsline {subsection}{\numberline {3.2.5}Procedure}{15}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{15}
+\contentsline {subsubsection}{Signal acquisition}{15}
+\contentsline {subsubsection}{Preprocessing}{16}
+\contentsline {subsubsection}{Feature Extraction/selection}{16}
+\contentsline {section}{\numberline {3.3}Results}{16}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{16}
+\contentsline {subsubsection}{fNIRS data}{16}
+\contentsline {subsubsection}{NASA-TLX}{17}
+\contentsline {subsubsection}{SAM - arousal scale}{17}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{17}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{17}
+\contentsline {chapter}{\numberline {4}Discussion}{18}
+\contentsline {subsection}{\numberline {4.0.4}Implications for Design}{18}
+\contentsline {subsection}{\numberline {4.0.5}Disadvantages of the study}{18}
+\contentsline {subsection}{\numberline {4.0.6}Future work}{18}
+\contentsline {section}{\numberline {4.1}Conclusion}{18}
+\contentsline {chapter}{References}{18}
+\contentsline {chapter}{Appendix}{22}
