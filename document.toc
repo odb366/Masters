@@ -4,20 +4,20 @@
 \contentsline {section}{\numberline {1.3}Industry partner}{6}
 \contentsline {section}{\numberline {1.4}Structure of the thesis}{6}
 \contentsline {chapter}{\numberline {2}Literature review}{7}
-\contentsline {subsection}{\numberline {2.0.1}Usability and Web form filling}{8}
-\contentsline {section}{\numberline {2.1}Working Memory and Mental Workload}{8}
-\contentsline {subsection}{\numberline {2.1.1}Working memory models}{9}
-\contentsline {subsection}{\numberline {2.1.2}Measuring Mental Workload}{11}
+\contentsline {section}{\numberline {2.1}Usability and Web form filling}{8}
+\contentsline {section}{\numberline {2.2}Working Memory and Mental Workload}{8}
+\contentsline {subsection}{\numberline {2.2.1}Working memory models}{9}
+\contentsline {subsection}{\numberline {2.2.2}Measuring Mental Workload}{11}
 \contentsline {subsubsection}{Primary and secondary task mesures}{11}
 \contentsline {subsubsection}{Subjective measures}{11}
 \contentsline {subsubsection}{Psychophysical measures}{12}
-\contentsline {section}{\numberline {2.2}Brain sensing}{12}
+\contentsline {section}{\numberline {2.3}Brain sensing}{12}
 \contentsline {subsubsection}{PFC and arrousal and affect}{12}
 \contentsline {subsubsection}{Fnirs and mental workload}{12}
 \contentsline {subsubsection}{Galvanic skin and mental workload}{13}
-\contentsline {section}{\numberline {2.3}Studies on Emotion}{13}
-\contentsline {section}{\numberline {2.4}fNIRS and Emotional Valence}{13}
-\contentsline {section}{\numberline {2.5}Summary}{13}
+\contentsline {section}{\numberline {2.4}Studies on Emotion}{13}
+\contentsline {section}{\numberline {2.5}fNIRS and Emotional Valence}{13}
+\contentsline {section}{\numberline {2.6}Summary}{13}
 \contentsline {chapter}{\numberline {3}User study}{14}
 \contentsline {section}{\numberline {3.1}Hypothesis and expectations}{14}
 \contentsline {section}{\numberline {3.2}Method}{14}
