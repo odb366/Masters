@@ -42,8 +42,8 @@
 \contentsline {subsubsection}{fNIRS data}{16}
 \contentsline {subsubsection}{NASA-TLX}{17}
 \contentsline {subsubsection}{SAM - subjective arousal scale}{17}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{17}
-\contentsline {subsubsection}{fNIRS differences}{17}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{18}
+\contentsline {subsubsection}{fNIRS differences}{18}
 \contentsline {subsubsection}{SAM emotional valence}{18}
 \contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{18}
 \contentsline {chapter}{\numberline {4}Discussion}{19}
