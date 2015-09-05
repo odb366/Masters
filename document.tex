@@ -4,7 +4,10 @@
 \author{Kristiyan Lukanov}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
 \renewcommand{\bibname}{References}
+\renewcommand{\arraystretch}{1.3}
 \begin{document}
 	\pagenumbering{gobble}
 	\maketitle
@@ -223,14 +226,30 @@
 				\end{figure}	
 			No statistical significance was found when comparing the means of Hbr between the three conditions $F(2,20)=2.044, p<.156,$ partial $\eta^{2}=.170$ where index2 had the highest Hbr mean 0.05 (SD = 0.85), index1 with -0.07 (SD = 0.96) and index3 with the lowest Hbr mean -0.36 (SD = 1.43). Also, a repeated measures ANOVA test was conducted to elicit significant statistical differences between mean Hbt between the three web forms, however no statistical significance was found $F(2,20)=0.685, p<.516,$ partial $\eta^{2}=.064$ where index2 had the highest Hbt mean -0.08 (SD = 0.49), index3 with -0.13 (SD = 0.58) and index1 with the lowest mean Hbt -0.19 (SD = 0.49).
 			\subsubsection{NASA-TLX}
-			There was no statistical significance between each of the NASA-TLX scales, including the total score as assessed by one way repeated measures ANOVA.
-			There was a moderate positive correlation between mental demand scales and task completion times between the three conditions  $r(18)=0.487, p=0.030,  r(18)=0.484, p=0.030,  r(18)=0.638, p=0.002$. Also, mental demand scales had a moderate positive correlation with the total NASA-TLX between the three conditions $r(18)=0.652, p=0.002,  r(18)=0.738, p=0.0005,  r(18)=0.741, p=0.0005$
+				There was no statistical significance between each of the NASA-TLX scales, including the total score as assessed by one way repeated measures ANOVA.
+				There was a moderate positive correlation between mental demand scales and task completion times between the three conditions  $r(18)=0.487, p=0.030,  r(18)=0.484, p=0.030,  r(18)=0.638, p=0.002$. Also, mental demand scales had a moderate positive correlation with the total NASA-TLX between the three conditions $r(18)=0.652, p=0.002,  r(18)=0.738, p=0.0005,  r(18)=0.741, p=0.0005$
+				\begin{table}[h]
+					\centering
+					\caption{NASA-TLX mean scores}
+					\label{my-label}
+					\begin{tabular}{l|ccc}
+						& Index1           & Index2           & Index3           \\[0.12cm]   \hline
+						Mental demand   & 9.15 (SD = 4.94) & 9.40 (SD = 4.68) & 10.8 (SD = 5.38) \\
+						Physical demand & 4.05 (SD = 4.08) & 2.90 (SD = 3.21) & 3.90 (SD = 3.65) \\
+						Temporal demand & 7.40 (SD = 4.49)  & 7.65 (SD = 5.79) & 6.55 (SD = 4.91) \\
+						Performance     & 6.65 (SD = 3.79) & 5.60 (SD = 3.62)  & 6.20 (SD = 3.86)  \\
+						Effort          & 8.15 (SD = 4.58) & 7.35 (SD = 4.68) & 8.20 (SD = 5.30)   \\
+						Frustration     & 6.10 (SD = 5.11)  & 6.00 (SD = 3.66)  & 6.75 (SD = 5.22) \\\hline
+						Total 			& 6.92 (SD = 2.95) & 6.47 (SD = 3.11) & 7.07 (SD = 3.22)
+					\end{tabular}
+				\end{table}
 				\begin{figure}[h]
 					\centering
 					\includegraphics[width=0.6\linewidth]{mental-demand-graph}
 					\caption{}
 					\label{fig:mental-demand-graph}
 				\end{figure}
+				
 			\subsubsection{SAM - subjective arousal scale}
 			No statistical significance was found when comparing the means of SAM arousal scale between the three conditions $F(2,38)=2.462, p<0.099,$ partial $\eta^{2}=.115$ using one way repeated measures ANOVA. However, after running post hoc test without adjustments(LSD) a statistically significant difference was found between index1 and index3 $p=0.049$.
 			Also, the time to complete index1 and index2 positively correlated to perceived arrousal for index 1 and index2:$r(18)=0.551, p=0.012,$ and $r(18)=0.473, p=0.035,$. However time to complete index3 does not correlate to perceived arrousal of index3 $r(18)=0.269, p=0.252$
