@@ -38,18 +38,18 @@
 \contentsline {subsubsection}{Preprocessing}{16}
 \contentsline {subsubsection}{Feature Extraction/selection}{16}
 \contentsline {section}{\numberline {3.3}Results}{16}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{16}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload between the three web forms}{16}
 \contentsline {subsubsection}{fNIRS data}{16}
 \contentsline {subsubsection}{NASA-TLX}{17}
-\contentsline {subsubsection}{SAM - subjective arousal scale}{18}
+\contentsline {subsubsection}{SAM - arousal scale}{17}
 \contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{18}
 \contentsline {subsubsection}{fNIRS differences}{18}
 \contentsline {subsubsection}{SAM emotional valence}{18}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{19}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{18}
 \contentsline {chapter}{\numberline {4}Discussion}{20}
 \contentsline {subsection}{\numberline {4.0.4}Implications for Design}{20}
 \contentsline {subsection}{\numberline {4.0.5}Disadvantages of the study}{20}
 \contentsline {subsection}{\numberline {4.0.6}Future work}{20}
 \contentsline {section}{\numberline {4.1}Conclusion}{20}
 \contentsline {chapter}{References}{20}
-\contentsline {chapter}{Appendix}{24}
+\contentsline {chapter}{Appendix}{25}
