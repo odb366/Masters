@@ -154,11 +154,6 @@ U~Neisser.
 \newblock {\em Cognitive psychology}.
 \newblock Prentice-hall, 1967.
 
-\bibitem{nielsen1994usability}
-Jakob Nielsen.
-\newblock {\em Usability engineering}.
-\newblock Elsevier, 1994.
-
 \bibitem{nielsen1994measuring}
 Jakob Nielsen and Jonathan Levy.
 \newblock Measuring usability: preference vs. performance.
@@ -170,10 +165,20 @@ Jakob Nielsen and Rolf Molich.
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems}, pages 249--256. ACM, 1990.
 
+\bibitem{norman2002emotion}
+Don Norman.
+\newblock Emotion \& design: attractive things work better.
+\newblock {\em interactions}, 9(4):36--42, 2002.
+
 \bibitem{norman1975data}
 Donald~A Norman and Daniel~G Bobrow.
 \newblock On data-limited and resource-limited processes.
 \newblock {\em Cognitive psychology}, 7(1):44--64, 1975.
+
+\bibitem{norman1986user}
+Donald~A Norman and Stephen~W Draper.
+\newblock User centered system design.
+\newblock {\em Hillsdale, NJ}, 1986.
 
 \bibitem{peacock1990stress}
 Edward~J Peacock and Paul~TP Wong.

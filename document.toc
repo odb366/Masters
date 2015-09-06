@@ -11,13 +11,12 @@
 \contentsline {subsubsection}{Primary and secondary task mesures}{10}
 \contentsline {subsubsection}{Subjective measures}{11}
 \contentsline {subsubsection}{Psychophysical measures}{12}
-\contentsline {section}{\numberline {2.3}Brain sensing}{12}
-\contentsline {subsubsection}{PFC and arrousal and affect}{12}
-\contentsline {subsubsection}{Fnirs and mental workload}{13}
-\contentsline {subsubsection}{Galvanic skin and mental workload}{13}
-\contentsline {section}{\numberline {2.4}Studies on Emotion}{13}
-\contentsline {section}{\numberline {2.5}fNIRS and Emotional Valence}{13}
-\contentsline {section}{\numberline {2.6}Summary}{13}
+\contentsline {section}{\numberline {2.3}Studies on Emotion}{12}
+\contentsline {section}{\numberline {2.4}Brain sensing}{13}
+\contentsline {subsection}{\numberline {2.4.1}PFC and Mental Workload and Affect}{13}
+\contentsline {subsection}{\numberline {2.4.2}Fnirs and Mental Workload}{13}
+\contentsline {subsection}{\numberline {2.4.3}fNIRS and Emotional Valence}{13}
+\contentsline {section}{\numberline {2.5}Summary}{13}
 \contentsline {chapter}{\numberline {3}User study}{15}
 \contentsline {section}{\numberline {3.1}Hypothesis and expectations}{15}
 \contentsline {section}{\numberline {3.2}Method}{15}
