@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {2.2}Working Memory and Mental Workload}{9}
 \contentsline {subsection}{\numberline {2.2.1}Working memory models}{9}
 \contentsline {subsection}{\numberline {2.2.2}Measuring Mental Workload}{10}
-\contentsline {subsubsection}{Primary and secondary task mesures}{10}
+\contentsline {subsubsection}{Primary and secondary task measures}{10}
 \contentsline {subsubsection}{Subjective measures}{11}
 \contentsline {subsubsection}{Psychophysical measures}{12}
 \contentsline {section}{\numberline {2.3}Emotion processing}{12}
 \contentsline {section}{\numberline {2.4}Brain sensing}{12}
-\contentsline {subsection}{\numberline {2.4.1}Fnirs and Mental Workload}{13}
+\contentsline {subsection}{\numberline {2.4.1}Fnirs and Mental Workload}{14}
 \contentsline {subsection}{\numberline {2.4.2}fNIRS and Emotional Valence}{14}
 \contentsline {section}{\numberline {2.5}Summary}{14}
 \contentsline {chapter}{\numberline {3}User study}{15}
