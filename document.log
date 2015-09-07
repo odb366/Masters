@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  7 SEP 2015 12:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  7 SEP 2015 14:57
 entering extended mode
 **document.tex
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.tex"
@@ -229,22 +229,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
 [11 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mrt.png>] [12]
 
-LaTeX Warning: Citation `fawfa' on page 13 undefined on input line 136.
+LaTeX Warning: Citation `fawfa' on page 13 undefined on input line 133.
 
 
-LaTeX Warning: Citation `dawda' on page 13 undefined on input line 136.
+LaTeX Warning: Citation `dawda' on page 13 undefined on input line 133.
 
 
-LaTeX Warning: Citation `dawwd' on page 13 undefined on input line 136.
+LaTeX Warning: Citation `dawwd' on page 13 undefined on input line 133.
 
+[13]
 
-LaTeX Warning: Citation `the-cognitive-control-of-emotion' on page 13 undefined
- on input line 152.
+LaTeX Warning: Citation `the-cognitive-control-of-emotion' on page 14 undefined
+ on input line 149.
 
-[13] [14]
+[14]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--164
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
@@ -254,10 +255,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--164
 File: mean-hbo-index123.jpg Graphic file (type jpg)
 
 <use mean-hbo-index123.jpg>
-Package pdftex.def Info: mean-hbo-index123.jpg used on input line 205.
+Package pdftex.def Info: mean-hbo-index123.jpg used on input line 202.
 (pdftex.def)             Requested size: 241.49895pt x 193.27512pt.
  [17 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.jpg>]
-Overfull \hbox (5.38959pt too wide) in paragraph at lines 217--227
+Overfull \hbox (5.38959pt too wide) in paragraph at lines 214--224
  [][] 
  []
 
@@ -266,7 +267,7 @@ File: hbo-valence-differences-index123.png Graphic file (type png)
 
 <use hbo-valence-differences-index123.png>
 Package pdftex.def Info: hbo-valence-differences-index123.png used on input lin
-e 238.
+e 235.
 (pdftex.def)             Requested size: 241.49895pt x 186.9161pt.
  [19 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/hbo-valence-differences-i
 ndex123.png>] [20]
@@ -275,7 +276,7 @@ Chapter 4.
 File: mental-demand-graph.png Graphic file (type png)
 
 <use mental-demand-graph.png>
-Package pdftex.def Info: mental-demand-graph.png used on input line 273.
+Package pdftex.def Info: mental-demand-graph.png used on input line 270.
 (pdftex.def)             Requested size: 207.0021pt x 165.26517pt.
 
 
@@ -287,10 +288,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [23
 
 ]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
 [24] [25]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
-) [26] [27
+ [26]) [27] [28
 
 ]
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.aux")
@@ -299,10 +304,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2893 strings out of 493921
- 43079 string characters out of 3144852
+ 2898 strings out of 493921
+ 43188 string characters out of 3144852
  108029 words of memory out of 3000000
- 6192 multiletter control sequences out of 15000+200000
+ 6197 multiletter control sequences out of 15000+200000
  10581 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,38p,1664b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -315,9 +320,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (28 pages, 345462 bytes).
+Output written on document.pdf (29 pages, 348075 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

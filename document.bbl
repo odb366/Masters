@@ -28,6 +28,13 @@ George~E Billman.
 \newblock Heart rate variability--a historical perspective.
 \newblock {\em Frontiers in physiology}, 2, 2011.
 
+\bibitem{brattico2011functional}
+Elvira Brattico, Vinoo Alluri, Brigitte Bogert, Thomas Jacobsen, Nuutti
+  Vartiainen, Sirke Nieminen, and Mari Tervaniemi.
+\newblock A functional mri study of happy and sad emotions in music with and
+  without lyrics.
+\newblock {\em Frontiers in psychology}, 2, 2011.
+
 \bibitem{broadbent1}
 D~Broadbent.
 \newblock Perception and communications.
@@ -112,6 +119,14 @@ Daniel Kahneman.
 \newblock {\em Attention and effort}.
 \newblock Citeseer, 1973.
 
+\bibitem{kawashima2004functional}
+Ryuta Kawashima, Masato Taira, Katsuo Okita, Kentaro Inoue, Nobumoto Tajima,
+  Hajime Yoshida, Takeo Sasaki, Motoaki Sugiura, Job Watanabe, and Hiroshi
+  Fukuda.
+\newblock A functional mri study of simple arithmetic—a comparison between
+  children and adults.
+\newblock {\em Cognitive Brain Research}, 18(3):227--233, 2004.
+
 \bibitem{lines2006online}
 Lorna Lines, Oluchi Ikechi, K~Hone, and Tony Elliman.
 \newblock Online form design for older adults: Introducing web-automated
@@ -193,6 +208,12 @@ Edward~J Peacock and Paul~TP Wong.
   cognitive appraisal.
 \newblock {\em Stress Medicine}, 6(3):227--236, 1990.
 
+\bibitem{phan2002functional}
+K~Luan Phan, Tor Wager, Stephan~F Taylor, and Israel Liberzon.
+\newblock Functional neuroanatomy of emotion: a meta-analysis of emotion
+  activation studies in pet and fmri.
+\newblock {\em Neuroimage}, 16(2):331--348, 2002.
+
 \bibitem{pike2014measuring}
 Matthew Pike, Horia~A Maior, Martin Porcheron, Sarah Sharples, and Max~L
   Wilson.
@@ -229,11 +250,26 @@ Sergio Sayago, Jos{\'e}-Mar{\'\i}a Guijarro, and Josep Blat.
   older people.
 \newblock {\em Behaviour \& Information Technology}, 31(2):171--184, 2012.
 
+\bibitem{scholkmann2014review}
+Felix Scholkmann, Stefan Kleiser, Andreas~Jaakko Metz, Raphael Zimmermann,
+  Juan~Mata Pavia, Ursula Wolf, and Martin Wolf.
+\newblock A review on continuous wave functional near-infrared spectroscopy and
+  imaging instrumentation and methodology.
+\newblock {\em Neuroimage}, 85:6--27, 2014.
+
 \bibitem{shneiderman1992designing}
 Ben Shneiderman.
 \newblock {\em Designing the user interface: strategies for effective
   human-computer interaction}, volume~3.
 \newblock Addison-Wesley Reading, MA, 1992.
+
+\bibitem{solovey2009using}
+Erin~Treacy Solovey, Audrey Girouard, Krysta Chauncey, Leanne~M Hirshfield,
+  Angelo Sassaroli, Feng Zheng, Sergio Fantini, and Robert~JK Jacob.
+\newblock Using fnirs brain sensing in realistic hci settings: experiments and
+  guidelines.
+\newblock In {\em Proceedings of the 22nd annual ACM symposium on User
+  interface software and technology}, pages 157--166. ACM, 2009.
 
 \bibitem{tsang1996diagnosticity}
 Pamela~S Tsang and Velma~L Velazquez.
