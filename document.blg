@@ -10,7 +10,6 @@ Repeated entry---line 1521 of file exmplref.bib
  :                                ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "wilson2015evaluation"
-Warning--I didn't find a database entry for "W"
 Warning--I didn't find a database entry for "fawfa"
 Warning--I didn't find a database entry for "dawda"
 Warning--I didn't find a database entry for "dawwd"
@@ -19,5 +18,6 @@ Warning--empty journal in broadbent1
 Warning--empty journal in broadbent2
 Warning--can't use both volume and number fields in byers1988workload
 Warning--there's a number but no series in chadwick2003web
+Warning--empty journal in harmon2011toward
 Warning--can't use both volume and number fields in wierwille1983validated
 (There were 2 error messages)

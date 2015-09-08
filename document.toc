@@ -12,43 +12,43 @@
 \contentsline {subsubsection}{Subjective measures}{11}
 \contentsline {subsubsection}{Psychophysical measures}{12}
 \contentsline {section}{\numberline {2.3}Emotion processing}{12}
-\contentsline {section}{\numberline {2.4}Brain sensing}{13}
-\contentsline {subsection}{\numberline {2.4.1}PFC and emotion processing and mental workload}{14}
+\contentsline {section}{\numberline {2.4}Brain sensing}{14}
+\contentsline {subsection}{\numberline {2.4.1}PFC and emotion processing and mental workload}{15}
 \contentsline {subsection}{\numberline {2.4.2}Fnirs and Mental Workload}{15}
 \contentsline {subsection}{\numberline {2.4.3}fNIRS and Emotional Valence}{15}
-\contentsline {section}{\numberline {2.5}Summary}{15}
-\contentsline {chapter}{\numberline {3}User study}{16}
-\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{16}
-\contentsline {section}{\numberline {3.2}Method}{16}
-\contentsline {subsection}{\numberline {3.2.1}Participants}{16}
-\contentsline {subsection}{\numberline {3.2.2}Apparatus}{16}
-\contentsline {subsubsection}{Laptop computer}{16}
-\contentsline {subsubsection}{fNIRS}{16}
-\contentsline {subsubsection}{Empatica}{17}
-\contentsline {subsection}{\numberline {3.2.3}Materials}{17}
-\contentsline {subsubsection}{NASA TLX}{17}
-\contentsline {subsubsection}{SAM}{17}
-\contentsline {subsubsection}{Web forms}{17}
-\contentsline {subsubsection}{Video capture}{17}
-\contentsline {subsection}{\numberline {3.2.4}Design}{17}
-\contentsline {subsection}{\numberline {3.2.5}Procedure}{17}
-\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{17}
-\contentsline {subsubsection}{Signal acquisition}{17}
-\contentsline {subsubsection}{Preprocessing}{18}
-\contentsline {subsubsection}{Feature Extraction/selection}{18}
-\contentsline {section}{\numberline {3.3}Results}{18}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload between the three web forms}{18}
-\contentsline {subsubsection}{fNIRS data}{18}
-\contentsline {subsubsection}{NASA-TLX}{19}
-\contentsline {subsubsection}{SAM - arousal scale}{19}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{20}
-\contentsline {subsubsection}{fNIRS differences}{20}
-\contentsline {subsubsection}{SAM emotional valence}{21}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{22}
-\contentsline {chapter}{\numberline {4}Discussion}{23}
-\contentsline {subsection}{\numberline {4.0.4}Implications for Design}{23}
-\contentsline {subsection}{\numberline {4.0.5}Disadvantages of the study}{23}
-\contentsline {subsection}{\numberline {4.0.6}Future work}{23}
-\contentsline {section}{\numberline {4.1}Conclusion}{23}
-\contentsline {chapter}{References}{23}
-\contentsline {chapter}{Appendix}{29}
+\contentsline {section}{\numberline {2.5}Summary}{16}
+\contentsline {chapter}{\numberline {3}User study}{17}
+\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{17}
+\contentsline {section}{\numberline {3.2}Method}{17}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{17}
+\contentsline {subsection}{\numberline {3.2.2}Apparatus}{17}
+\contentsline {subsubsection}{Laptop computer}{17}
+\contentsline {subsubsection}{fNIRS}{17}
+\contentsline {subsubsection}{Empatica}{18}
+\contentsline {subsection}{\numberline {3.2.3}Materials}{18}
+\contentsline {subsubsection}{NASA TLX}{18}
+\contentsline {subsubsection}{SAM}{18}
+\contentsline {subsubsection}{Web forms}{18}
+\contentsline {subsubsection}{Video capture}{18}
+\contentsline {subsection}{\numberline {3.2.4}Design}{18}
+\contentsline {subsection}{\numberline {3.2.5}Procedure}{18}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{18}
+\contentsline {subsubsection}{Signal acquisition}{18}
+\contentsline {subsubsection}{Preprocessing}{19}
+\contentsline {subsubsection}{Feature Extraction/selection}{19}
+\contentsline {section}{\numberline {3.3}Results}{19}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload between the three web forms}{19}
+\contentsline {subsubsection}{fNIRS data}{19}
+\contentsline {subsubsection}{NASA-TLX}{20}
+\contentsline {subsubsection}{SAM - arousal scale}{20}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{21}
+\contentsline {subsubsection}{fNIRS differences}{21}
+\contentsline {subsubsection}{SAM emotional valence}{22}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{23}
+\contentsline {chapter}{\numberline {4}Discussion}{24}
+\contentsline {subsection}{\numberline {4.0.4}Implications for Design}{24}
+\contentsline {subsection}{\numberline {4.0.5}Disadvantages of the study}{24}
+\contentsline {subsection}{\numberline {4.0.6}Future work}{24}
+\contentsline {section}{\numberline {4.1}Conclusion}{24}
+\contentsline {chapter}{References}{24}
+\contentsline {chapter}{Appendix}{30}

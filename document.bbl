@@ -28,6 +28,12 @@ George~E Billman.
 \newblock Heart rate variability--a historical perspective.
 \newblock {\em Frontiers in physiology}, 2, 2011.
 
+\bibitem{blanchette2010influence}
+Isabelle Blanchette and Anne Richards.
+\newblock The influence of affect on higher level cognition: A review of
+  research on interpretation, judgement, decision making and reasoning.
+\newblock {\em Cognition \& Emotion}, 24(4):561--595, 2010.
+
 \bibitem{brattico2011functional}
 Elvira Brattico, Vinoo Alluri, Brigitte Bogert, Thomas Jacobsen, Nuutti
   Vartiainen, Sirke Nieminen, and Mari Tervaniemi.
@@ -90,6 +96,18 @@ David~T Delpy, Mark Cope, Pieter van~der Zee, SR~Arridge, Susan Wray, and
   flight measurement.
 \newblock {\em Physics in medicine and biology}, 33(12):1433, 1988.
 
+\bibitem{easterbrook1959effect}
+James~A Easterbrook.
+\newblock The effect of emotion on cue utilization and the organization of
+  behavior.
+\newblock {\em Psychological review}, 66(3):183, 1959.
+
+\bibitem{eriksen1986visual}
+Charles~W Eriksen and James D~St James.
+\newblock Visual attention within and around the field of focal attention: A
+  zoom lens model.
+\newblock {\em Perception \& psychophysics}, 40(4):225--240, 1986.
+
 \bibitem{feldman1998independence}
 Lisa Feldman~Barrett and James~A Russell.
 \newblock Independence and bipolarity in the structure of current affect.
@@ -102,11 +120,23 @@ Susan Folkman, Richard~S Lazarus, Christine Dunkel-Schetter, Anita DeLongis,
   encounter outcomes.
 \newblock {\em Journal of personality and social psychology}, 50(5):992, 1986.
 
+\bibitem{fox2008emotion}
+Elaine Fox.
+\newblock {\em Emotion science cognitive and neuroscientific approaches to
+  understanding human emotions}.
+\newblock Palgrave Macmillan, 2008.
+
 \bibitem{haapalainen2010psycho}
 Eija Haapalainen, SeungJun Kim, Jodi~F Forlizzi, and Anind~K Dey.
 \newblock Psycho-physiological measures for assessing cognitive load.
 \newblock In {\em Proceedings of the 12th ACM international conference on
   Ubiquitous computing}, pages 301--310. ACM, 2010.
+
+\bibitem{harmon2011toward}
+Eddie Harmon-Jones, Philip~A Gable, and Tom~F Price.
+\newblock Toward an understanding of the influence of affective states on
+  attentional tuning: Comment on friedman and f{\"o}rster (2010).
+\newblock 2011.
 
 \bibitem{nasatlx}
 Sandra~G Hart and Lowell~E Staveland.
@@ -278,6 +308,12 @@ Ben Shneiderman.
 \newblock {\em Designing the user interface: strategies for effective
   human-computer interaction}, volume~3.
 \newblock Addison-Wesley Reading, MA, 1992.
+
+\bibitem{smith2009putting}
+Craig~A Smith and Leslie~D Kirby.
+\newblock Putting appraisal in context: Toward a relational model of appraisal
+  and emotion.
+\newblock {\em Cognition and Emotion}, 23(7):1352--1372, 2009.
 
 \bibitem{solovey2009using}
 Erin~Treacy Solovey, Audrey Girouard, Krysta Chauncey, Leanne~M Hirshfield,
