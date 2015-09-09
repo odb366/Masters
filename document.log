@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  9 SEP 2015 16:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  9 SEP 2015 20:05
 entering extended mode
 **document.tex
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.tex"
@@ -198,21 +198,21 @@ Missing character: There is no ¤ in font cmr10!
  [8] <baddeley-wm.jpg, id=35, 228.855pt x 169.1118pt>
 File: baddeley-wm.jpg Graphic file (type jpg)
  <use baddeley-wm.jpg>
-Package pdftex.def Info: baddeley-wm.jpg used on input line 78.
+Package pdftex.def Info: baddeley-wm.jpg used on input line 79.
 (pdftex.def)             Requested size: 172.5pt x 127.47346pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 <mrt.png, id=36, 623.32875pt x 465.23813pt>
 File: mrt.png Graphic file (type png)
  <use mrt.png>
-Package pdftex.def Info: mrt.png used on input line 93.
+Package pdftex.def Info: mrt.png used on input line 94.
 (pdftex.def)             Requested size: 241.49895pt x 180.24951pt.
  [9]
 
@@ -238,81 +238,81 @@ ne 122.
  [13 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/two-demensional-approach-
 emotions.png>] [14] [15]
 
-LaTeX Warning: Citation `fawfa' on page 16 undefined on input line 150.
+LaTeX Warning: Citation `fawfa' on page 16 undefined on input line 155.
 
 
-LaTeX Warning: Citation `dawda' on page 16 undefined on input line 150.
+LaTeX Warning: Citation `dawda' on page 16 undefined on input line 155.
 
 
-LaTeX Warning: Citation `dawwd' on page 16 undefined on input line 150.
+LaTeX Warning: Citation `dawwd' on page 16 undefined on input line 155.
 
 
 LaTeX Warning: Citation `the-cognitive-control-of-emotion' on page 16 undefined
- on input line 166.
+ on input line 171.
 
-[16]
+[16] [17]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
 
  []
 
-[17
+[18
 
-] [18] <mean-hbo-index123.jpg, id=73, 628.3475pt x 502.87875pt>
+] [19] <mean-hbo-index123.jpg, id=76, 628.3475pt x 502.87875pt>
 File: mean-hbo-index123.jpg Graphic file (type jpg)
 
 <use mean-hbo-index123.jpg>
-Package pdftex.def Info: mean-hbo-index123.jpg used on input line 220.
+Package pdftex.def Info: mean-hbo-index123.jpg used on input line 225.
 (pdftex.def)             Requested size: 241.49895pt x 193.27512pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.38959pt too wide) in paragraph at lines 232--242
+Overfull \hbox (5.38959pt too wide) in paragraph at lines 237--247
  [][] 
  []
 
-[19]
+[20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.jpg>]
-<hbo-valence-differences-index123.png, id=82, 486.31688pt x 376.40625pt>
+[21 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.jpg>]
+<hbo-valence-differences-index123.png, id=85, 486.31688pt x 376.40625pt>
 File: hbo-valence-differences-index123.png Graphic file (type png)
 
 <use hbo-valence-differences-index123.png>
 Package pdftex.def Info: hbo-valence-differences-index123.png used on input lin
-e 253.
+e 258.
 (pdftex.def)             Requested size: 241.49895pt x 186.9161pt.
- [21 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/hbo-valence-differences-i
-ndex123.png>] [22] [23]
+ [22 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/hbo-valence-differences-i
+ndex123.png>] [23] [24]
 Chapter 4.
-<mental-demand-graph.png, id=93, 466.74374pt x 372.64218pt>
+<mental-demand-graph.png, id=97, 466.74374pt x 372.64218pt>
 File: mental-demand-graph.png Graphic file (type png)
 
 <use mental-demand-graph.png>
-Package pdftex.def Info: mental-demand-graph.png used on input line 288.
+Package pdftex.def Info: mental-demand-graph.png used on input line 293.
 (pdftex.def)             Requested size: 207.0021pt x 165.26517pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl" [24
+("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl" [25
 
-] [25 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mental-demand-graph.png>
-] [26
+] [26 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mental-demand-graph.png>
+] [27
 
 ]
-[27]
+[28]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [28] [29] [30]
+ [29] [30] [31]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
-) [31] [32
+) [32] [33
 
 ]
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.aux")
@@ -321,10 +321,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2928 strings out of 493921
- 43914 string characters out of 3144852
+ 2931 strings out of 493921
+ 43978 string characters out of 3144852
  110029 words of memory out of 3000000
- 6226 multiletter control sequences out of 15000+200000
+ 6229 multiletter control sequences out of 15000+200000
  10581 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,38p,2033b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -337,9 +337,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (33 pages, 375999 bytes).
+Output written on document.pdf (34 pages, 378758 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

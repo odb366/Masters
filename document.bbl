@@ -339,11 +339,21 @@ Yvonne Rogers, Helen Sharp, Jenny Preece, and Michele Tepper.
 \newblock Interaction design: beyond human-computer interaction.
 \newblock {\em netWorker: The Craft of Network Computing}, 11(4):34, 2007.
 
+\bibitem{rolls2000orbitofrontal}
+Edmund~T Rolls.
+\newblock The orbitofrontal cortex and reward.
+\newblock {\em Cerebral cortex}, 10(3):284--294, 2000.
+
 \bibitem{rouse1993modeling}
 William~B Rouse, Sharon~L Edwards, and John~M Hammer.
 \newblock Modeling the dynamics of mental workload and human performance in
   complex systems.
 \newblock {\em IEEE Transactions on Systems, Man, \& Cybernetics}, 1993.
+
+\bibitem{russell2003core}
+James~A Russell.
+\newblock Core affect and the psychological construction of emotion.
+\newblock {\em Psychological review}, 110(1):145, 2003.
 
 \bibitem{sayago2007some}
 Sergio Sayago and Josep Blat.
@@ -405,6 +415,12 @@ Paul~M Thompson, Tyrone~D Cannon, Katherine~L Narr, Theo Van~Erp, Veli-Pekka
 Pamela~S Tsang and Velma~L Velazquez.
 \newblock Diagnosticity and multidimensional subjective workload ratings.
 \newblock {\em Ergonomics}, 39(3):358--381, 1996.
+
+\bibitem{watson1988development}
+David Watson, Lee~A Clark, and Auke Tellegen.
+\newblock Development and validation of brief measures of positive and negative
+  affect: the panas scales.
+\newblock {\em Journal of personality and social psychology}, 54(6):1063, 1988.
 
 \bibitem{wickens2002multiple}
 Christopher~D Wickens.
