@@ -13,8 +13,8 @@
 \contentsline {subsubsection}{Psychophysical measures}{12}
 \contentsline {section}{\numberline {2.3}Emotion processing}{12}
 \contentsline {section}{\numberline {2.4}Brain sensing}{14}
-\contentsline {subsection}{\numberline {2.4.1}PFC and emotion processing and mental workload}{15}
-\contentsline {subsection}{\numberline {2.4.2}Fnirs and Mental Workload}{15}
+\contentsline {subsection}{\numberline {2.4.1}PFC, cognition and emotional processing}{15}
+\contentsline {subsection}{\numberline {2.4.2}Fnirs and Mental Workload}{16}
 \contentsline {subsection}{\numberline {2.4.3}fNIRS and Emotional Valence}{16}
 \contentsline {section}{\numberline {2.5}Summary}{16}
 \contentsline {chapter}{\numberline {3}User study}{17}
@@ -37,7 +37,7 @@
 \contentsline {subsubsection}{Preprocessing}{19}
 \contentsline {subsubsection}{Feature Extraction/selection}{19}
 \contentsline {section}{\numberline {3.3}Results}{19}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload between the three web forms}{19}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{19}
 \contentsline {subsubsection}{fNIRS data}{19}
 \contentsline {subsubsection}{NASA-TLX}{20}
 \contentsline {subsubsection}{SAM - arousal scale}{20}
@@ -46,9 +46,9 @@
 \contentsline {subsubsection}{SAM emotional valence}{22}
 \contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{23}
 \contentsline {chapter}{\numberline {4}Discussion}{24}
-\contentsline {subsection}{\numberline {4.0.4}Implications for Design}{24}
-\contentsline {subsection}{\numberline {4.0.5}Disadvantages of the study}{24}
-\contentsline {subsection}{\numberline {4.0.6}Future work}{24}
-\contentsline {section}{\numberline {4.1}Conclusion}{24}
+\contentsline {section}{\numberline {4.1}Implications for Design}{24}
+\contentsline {section}{\numberline {4.2}Disadvantages of the study}{24}
+\contentsline {section}{\numberline {4.3}Future work}{24}
+\contentsline {section}{\numberline {4.4}Conclusion}{24}
 \contentsline {chapter}{References}{24}
-\contentsline {chapter}{Appendix}{30}
+\contentsline {chapter}{Appendix}{31}

@@ -54,6 +54,13 @@ Elvira Brattico, Vinoo Alluri, Brigitte Bogert, Thomas Jacobsen, Nuutti
   without lyrics.
 \newblock {\em Frontiers in psychology}, 2, 2011.
 
+\bibitem{braver1997parametric}
+Todd~S Braver, Jonathan~D Cohen, Leigh~E Nystrom, John Jonides, Edward~E Smith,
+  and Douglas~C Noll.
+\newblock A parametric study of prefrontal cortex involvement in human working
+  memory.
+\newblock {\em Neuroimage}, 5(1):49--62, 1997.
+
 \bibitem{broadbent1}
 D~Broadbent.
 \newblock Perception and communications.
@@ -63,6 +70,11 @@ D~Broadbent.
 D~Broadbent.
 \newblock Decision and stress.
 \newblock 1972.
+
+\bibitem{brown2012common}
+Scott~D Brown.
+\newblock Common ground for behavioural and neuroimaging research.
+\newblock {\em Australian journal of psychology}, 64(1):4--10, 2012.
 
 \bibitem{byers1988workload}
 James~C Byers, Alvah~C Bittner, Susan~G Hill, Allen~L Zaklad, and Richard~E
@@ -94,6 +106,12 @@ M~Cope and David~T Delpy.
   oxygenation on newborn infants by near infra-red transillumination.
 \newblock {\em Medical and Biological Engineering and Computing},
   26(3):289--294, 1988.
+
+\bibitem{cosgrove2007evolving}
+Kelly~P Cosgrove, Carolyn~M Mazure, and Julie~K Staley.
+\newblock Evolving knowledge of sex differences in brain structure, function,
+  and chemistry.
+\newblock {\em Biological psychiatry}, 62(8):847--855, 2007.
 
 \bibitem{cui2010functional}
 Xu~Cui, Signe Bray, and Allan~L Reiss.
@@ -327,6 +345,11 @@ Felix Scholkmann, Stefan Kleiser, Andreas~Jaakko Metz, Raphael Zimmermann,
   imaging instrumentation and methodology.
 \newblock {\em Neuroimage}, 85:6--27, 2014.
 
+\bibitem{shallice1988neuropsychology}
+Tim Shallice.
+\newblock {\em From neuropsychology to mental structure}.
+\newblock Cambridge University Press, 1988.
+
 \bibitem{shneiderman1992designing}
 Ben Shneiderman.
 \newblock {\em Designing the user interface: strategies for effective
@@ -339,6 +362,11 @@ Craig~A Smith and Leslie~D Kirby.
   and emotion.
 \newblock {\em Cognition and Emotion}, 23(7):1352--1372, 2009.
 
+\bibitem{smith1997working}
+Edward~E Smith and John Jonides.
+\newblock Working memory: A view from neuroimaging.
+\newblock {\em Cognitive psychology}, 33(1):5--42, 1997.
+
 \bibitem{solovey2009using}
 Erin~Treacy Solovey, Audrey Girouard, Krysta Chauncey, Leanne~M Hirshfield,
   Angelo Sassaroli, Feng Zheng, Sergio Fantini, and Robert~JK Jacob.
@@ -346,6 +374,13 @@ Erin~Treacy Solovey, Audrey Girouard, Krysta Chauncey, Leanne~M Hirshfield,
   guidelines.
 \newblock In {\em Proceedings of the 22nd annual ACM symposium on User
   interface software and technology}, pages 157--166. ACM, 2009.
+
+\bibitem{thompson2001genetic}
+Paul~M Thompson, Tyrone~D Cannon, Katherine~L Narr, Theo Van~Erp, Veli-Pekka
+  Poutanen, Matti Huttunen, Jouko L{\"o}nnqvist, Carl-Gustaf
+  Standertskj{\"o}ld-Nordenstam, Jaakko Kaprio, Mohammad Khaledy, et~al.
+\newblock Genetic influences on brain structure.
+\newblock {\em Nature neuroscience}, 4(12):1253--1258, 2001.
 
 \bibitem{tsang1996diagnosticity}
 Pamela~S Tsang and Velma~L Velazquez.
@@ -386,6 +421,13 @@ Erik Wästlund, Torsten Norlander, and Trevor Archer.
 \newblock {\em Computers in Human Behavior}, 24(3):1229 -- 1245, 2008.
 \newblock Instructional Support for Enhancing Students' Information Problem
   Solving Ability.
+
+\bibitem{yarkoni2011large}
+Tal Yarkoni, Russell~A Poldrack, Thomas~E Nichols, David~C Van~Essen, and Tor~D
+  Wager.
+\newblock Large-scale automated synthesis of human functional neuroimaging
+  data.
+\newblock {\em Nature methods}, 8(8):665--670, 2011.
 
 \bibitem{ye2009nirs}
 Jong~Chul Ye, Sungho Tak, Kwang~Eun Jang, Jinwook Jung, and Jaeduck Jang.

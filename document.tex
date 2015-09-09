@@ -1,5 +1,5 @@
 \documentclass[a4paper]{report}
-\title{Using fNIRS to Detect Mental Workload and Emotional Valence in web form filling task}
+\title{Using fNIRS to Detect Mental Workload and Emotional Valence in web form filling task}%changing the layout of long web forms
 \date{2015-09-18}
 \author{Kristiyan Lukanov}
 \usepackage{graphicx}
@@ -31,7 +31,6 @@
 	Users often has to fill web pages containing more than 10 forms, like registering for a web site, posting classified ad, or sending online insurance claim. Sometimes this is really important, like filling insurance claim forms. People often dislike the fact that they should fill a long form and that makes the claim process difficult. That is why we are interested in measuring the mental workload in this type of tasks
 	
 	we want to if new web form designs will make the task easier
-	
 	
 	Importance of those forms(how they should be accurate and unaiding)
 	 However this often encountered task in our daily lives is not well researched in the field of cognitive science.	
@@ -142,8 +141,10 @@
 	
 	A more recent brain imaging technique is the functional near infrared spectroscopy (fNIRS) which unlike EEG is an optical-imaging modality. Furthermore, fNIRS can detect cerebral hemodynamics by calculating the oxygenated haemoglobin(Hbo) and deoxygenated haemoglobin(Hbr). It uses infrared light which is emitted to the participants skull using emitter-detector pairs consisting of infrared LED emitter, and infrared sensors. They usually operate with two or more wavelengths (650-1000nm)\cite{scholkmann2014review}. Furthermore, because Hbo and Hbr have different light absorption coefficients and the infrared sensors can detect the reflected light from them, the concentration of Hbo and Hbr is calculated using modified Beer-Lamberts law\cite{delpy1988estimation}. Furthermore, fNIRS has low temporal resolution with a 2-8 sec delay\cite{huppert2006temporal} depending on the task. However it provides a continuous data and different periods of the task can be defined and later analysed. In addition, fNIRS devices are becoming more and more portable, have high spatial resolution, and most importantly they have low sensitivity to motion artefacts which makes it particularly suitable for HCI studies\cite{maior2015examining,solovey2009using}. Hence, we decided to use fNIRS because of its applicability for usability experiments. For more comprehensive review of the fNIRS brain imaging instrumentation and methodology Scholkmann et al\cite{scholkmann2014review} article provides detailed information.
 	Next, relevant studies that try to infer mental workload and emotional valence using fNIRS will be reviewed in the subsections below.
-		\subsection{PFC and emotion processing and mental workload}
-		some text..
+		\subsection{PFC, cognition and emotional processing}
+		Generally, the prefrontal cortex(PFC) has been associated with higher cognitive functions by studies examining brain damaged individuals\cite{shallice1988neuropsychology,smith1997working}. Also, experiments on healthy subjects using the n-back task\cite{braver1997parametric} have supported this claim. More specifically, activation was observed in the dorsolateral prefrontal cortex (BA 9/46), inferior frontal (BA 6/44) and parietal (BA 7/44) when the task demanded more working memory resources. However, it is difficult to point which brain region is involved with which processes because one brain area is usually involved in multiple cognitive tasks\cite{brown2012common}. Moreover, Yarkoni\cite{yarkoni2011large} supported that claim by reviewing 3489 studies, which considered areas of human brain. Interestingly, activation in the same brain regions (dorsolateral prefrontal cortex, anterior insula and anterior cingulate cortex) was observed in one fifth of the studies. He used a machine learning algorithm and classified different studies into ones that assessed working memory, emotion and pain. It also, can be seen from the graphs that both working memory and emotion processing studies evoked activation in the PFC. Furthermore, individual differences in brain structure exist, especially in the PFC area\cite{thompson2001genetic}. In addition, gender differences in the brain structure are also observed\cite{cosgrove2007evolving}. 
+		
+		
 		\subsection{Fnirs and Mental Workload}
 			- PFC is involved in cognitive control(higher cognitive abilities) functions \cite{fawfa,dawda,dawwd}
 			Highlight studies involving mental workload.
@@ -209,7 +210,7 @@
 			\subsubsection{Feature Extraction/selection}
 			After data preprocessing we should choose what features we will use to evaluate our data - mean values of oxy-Hb, mean values of oxy-Hb for all channels, skewness, variance
 	\section{Results}
-		\subsection{Mental Workload between the three web forms}
+		\subsection{Mental Workload}
 			\subsubsection{fNIRS data}	
 			A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in mean Hbo values between the three web forms. The assumption of sphericity was met, as assessed by Mauchly's test of sphericity, $X^{2}(2) = 0.195, p = 0.907$. There was no significant statistical difference in the mean Hbo between the 3 web forms  $F(2,20)=3.400, p<.054,$ partial $\eta^{2}=.254$ with mean Hbo decreasing from 0.2377 (SD = 1.19) in index3 to -0.1166 (SD = 0.82) and -0.117 (SD = 1) for index2 and index1 respectfully.
 			After conducting t-tests between index1 and index3 there was found a marginal statistical difference p=0.054. Which means that the measured Hbo between the two versions has a 94.6\% statistical chance that the difference is not caused by random sampling error. However, we fail to reject the first null hypothesis. This means that we could not find a statistically significant interaction, however we were very close to statistical significance, as p=0.054 and we can assume we have marginal statistical significance.
@@ -273,12 +274,12 @@
 
 \chapter{Discussion}
 	What was the purpose of the study, and then interpretation of the results
-		\subsection{Implications for Design}
-		\subsection{Disadvantages of the study}
+	\section{Implications for Design}
+	\section{Disadvantages of the study}
 		The study tries to simulate real conditions, and therefore lacks ecological validity because users wait approximately 2 minutes after they have watched the video to start filling the web form. This way they still hold some of the information in their working memory and the study is trying to simulate long term memory recall.
-		\subsection{Future work}
+	\section{Future work}
 	\section{Conclusion}
-	In summary, the mental workload is lower for this....
+		In summary, the mental workload is lower for this....
 
 	\section*{Graphs:}
 		\begin{figure}[h]
