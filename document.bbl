@@ -120,6 +120,12 @@ Kelly~P Cosgrove, Carolyn~M Mazure, and Julie~K Staley.
   and chemistry.
 \newblock {\em Biological psychiatry}, 62(8):847--855, 2007.
 
+\bibitem{cui2011quantitative}
+Xu~Cui, Signe Bray, Daniel~M Bryant, Gary~H Glover, and Allan~L Reiss.
+\newblock A quantitative comparison of nirs and fmri across multiple cognitive
+  tasks.
+\newblock {\em Neuroimage}, 54(4):2808--2821, 2011.
+
 \bibitem{cui2010functional}
 Xu~Cui, Signe Bray, and Allan~L Reiss.
 \newblock Functional near infrared spectroscopy (nirs) signal improvement based
@@ -315,6 +321,14 @@ Edward~J Peacock and Paul~TP Wong.
   cognitive appraisal.
 \newblock {\em Stress Medicine}, 6(3):227--236, 1990.
 
+\bibitem{peck2013using}
+Evan M~M Peck, Beste~F Yuksel, Alvitta Ottley, Robert~JK Jacob, and Remco
+  Chang.
+\newblock Using fnirs brain sensing to evaluate information visualization
+  interfaces.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 473--482. ACM, 2013.
+
 \bibitem{phan2002functional}
 K~Luan Phan, Tor Wager, Stephan~F Taylor, and Israel Liberzon.
 \newblock Functional neuroanatomy of emotion: a meta-analysis of emotion
@@ -415,6 +429,13 @@ Paul~M Thompson, Tyrone~D Cannon, Katherine~L Narr, Theo Van~Erp, Veli-Pekka
 Pamela~S Tsang and Velma~L Velazquez.
 \newblock Diagnosticity and multidimensional subjective workload ratings.
 \newblock {\em Ergonomics}, 39(3):358--381, 1996.
+
+\bibitem{virzi1992refining}
+Robert~A Virzi.
+\newblock Refining the test phase of usability evaluation: how many subjects is
+  enough?
+\newblock {\em Human Factors: The Journal of the Human Factors and Ergonomics
+  Society}, 34(4):457--468, 1992.
 
 \bibitem{watson1988development}
 David Watson, Lee~A Clark, and Auke Tellegen.
