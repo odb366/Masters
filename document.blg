@@ -9,6 +9,10 @@ Repeated entry---line 1521 of file exmplref.bib
  : @article{brattico2011functional
  :                                ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1841 of file exmplref.bib
+ : @article{plichta2006event
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "wilson2015evaluation"
 Warning--I didn't find a database entry for "the-cognitive-control-of-emotion"
 Warning--empty journal in broadbent1
@@ -17,4 +21,4 @@ Warning--can't use both volume and number fields in byers1988workload
 Warning--there's a number but no series in chadwick2003web
 Warning--empty journal in harmon2011toward
 Warning--can't use both volume and number fields in wierwille1983validated
-(There were 2 error messages)
+(There were 3 error messages)

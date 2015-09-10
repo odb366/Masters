@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{ayaz2012optical}
+Hasan Ayaz, Patricia~A Shewokis, Scott Bunce, Kurtulus Izzetoglu, Ben Willems,
+  and Banu Onaral.
+\newblock Optical brain monitoring for operator training and mental workload
+  assessment.
+\newblock {\em Neuroimage}, 59(1):36--47, 2012.
+
 \bibitem{baddeley2000episodic}
 Alan Baddeley.
 \newblock The episodic buffer: a new component of working memory?
@@ -83,6 +90,14 @@ Scott~D Brown.
 \newblock Common ground for behavioural and neuroimaging research.
 \newblock {\em Australian journal of psychology}, 64(1):4--10, 2012.
 
+\bibitem{bunce2011implementation}
+Scott~C Bunce, Kurtulus Izzetoglu, Hasan Ayaz, Patricia Shewokis, Meltem
+  Izzetoglu, Kambiz Pourrezaei, and Banu Onaral.
+\newblock Implementation of fnirs for monitoring levels of expertise and mental
+  workload.
+\newblock In {\em Foundations of augmented cognition. Directing the future of
+  adaptive systems}, pages 13--22. Springer, 2011.
+
 \bibitem{byers1988workload}
 James~C Byers, Alvah~C Bittner, Susan~G Hill, Allen~L Zaklad, and Richard~E
   Christ.
@@ -157,6 +172,13 @@ David~T Delpy, Mark Cope, Pieter van~der Zee, SR~Arridge, Susan Wray, and
   flight measurement.
 \newblock {\em Physics in medicine and biology}, 33(12):1433, 1988.
 
+\bibitem{durantin2014using}
+Gautier Durantin, J-F Gagnon, S{\'e}bastien Tremblay, and Fr{\'e}d{\'e}ric
+  Dehais.
+\newblock Using near infrared spectroscopy and heart rate variability to detect
+  mental overload.
+\newblock {\em Behavioural brain research}, 259:16--23, 2014.
+
 \bibitem{easterbrook1959effect}
 James~A Easterbrook.
 \newblock The effect of emotion on cue utilization and the organization of
@@ -205,6 +227,14 @@ Sandra~G Hart and Lowell~E Staveland.
   theoretical research.
 \newblock {\em Advances in psychology}, 52:139--183, 1988.
 
+\bibitem{hirth1996non}
+Christina Hirth, Hellmuth Obrig, Kersten Villringer, Andeas Thiel, Johannes
+  Bernarding, Werner M{\"u}hlnickel, Herta Flor, Ulrich Dirnagl, and Arno
+  Villringer.
+\newblock Non-invasive functional mapping of the human motor cortex using
+  near-infrared spectroscopy.
+\newblock {\em Neuroreport}, 7(12):1977--1981, 1996.
+
 \bibitem{huppert2006temporal}
 TJ~Huppert, RD~Hoge, SG~Diamond, Maria~Angela Franceschini, and David~A Boas.
 \newblock A temporal comparison of bold, asl, and nirs hemodynamic responses to
@@ -215,6 +245,14 @@ TJ~Huppert, RD~Hoge, SG~Diamond, Maria~Angela Franceschini, and David~A Boas.
 Carroll~E Izard.
 \newblock Basic emotions, natural kinds, emotion schemas, and a new paradigm.
 \newblock {\em Perspectives on psychological science}, 2(3):260--280, 2007.
+
+\bibitem{izzetoglu2004functional}
+Kurtulus Izzetoglu, Scott Bunce, Banu Onaral, Kambiz Pourrezaei, and Britton
+  Chance.
+\newblock Functional optical brain imaging using near-infrared during cognitive
+  tasks.
+\newblock {\em International Journal of human-computer interaction},
+  17(2):211--227, 2004.
 
 \bibitem{jarrett2009forms}
 Caroline Jarrett and Gerry Gaffney.
@@ -284,6 +322,12 @@ George~A Miller.
   capacity for processing information.
 \newblock {\em Psychological review}, 63(2):81, 1956.
 
+\bibitem{naseer2014online}
+Noman Naseer, Melissa~Jiyoun Hong, and Keum-Shik Hong.
+\newblock Online binary decision decoding using functional near-infrared
+  spectroscopy for the development of brain--computer interface.
+\newblock {\em Experimental brain research}, 232(2):555--564, 2014.
+
 \bibitem{neisser}
 U~Neisser.
 \newblock {\em Cognitive psychology}.
@@ -315,6 +359,11 @@ Donald~A Norman and Stephen~W Draper.
 \newblock User centered system design.
 \newblock {\em Hillsdale, NJ}, 1986.
 
+\bibitem{parasuraman2005neural}
+R~Parasuraman and D~Caggiano.
+\newblock Neural and genetic assays of human mental workload.
+\newblock {\em Quantifying human information processing}, pages 123--149, 2005.
+
 \bibitem{peacock1990stress}
 Edward~J Peacock and Paul~TP Wong.
 \newblock The stress appraisal measure (sam): A multidimensional approach to
@@ -341,6 +390,20 @@ Matthew Pike, Horia~A Maior, Martin Porcheron, Sarah Sharples, and Max~L
 \newblock Measuring the effect of think aloud protocols on workload using
   fnirs.
 \newblock In {\em ACMCHI}, 2014.
+
+\bibitem{plichta2011auditory}
+Michael~M Plichta, Antje~BM Gerdes, GW~Alpers, W~Harnisch, S~Brill, MJ~Wieser,
+  and Andreas~J Fallgatter.
+\newblock Auditory cortex activation is modulated by emotion: a functional
+  near-infrared spectroscopy (fnirs) study.
+\newblock {\em Neuroimage}, 55(3):1200--1207, 2011.
+
+\bibitem{plichta2006event}
+MM~Plichta, MJ~Herrmann, CG~Baehne, A-C Ehlis, MM~Richter, P~Pauli, and
+  AJ~Fallgatter.
+\newblock Event-related functional near-infrared spectroscopy (fnirs): are the
+  measurements reliable?
+\newblock {\em Neuroimage}, 31(1):116--124, 2006.
 
 \bibitem{reid1988subjective}
 Gary~B Reid and Thomas~E Nygren.

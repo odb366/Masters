@@ -14,8 +14,8 @@
 \contentsline {section}{\numberline {2.3}Emotion processing}{12}
 \contentsline {section}{\numberline {2.4}Brain sensing}{15}
 \contentsline {subsection}{\numberline {2.4.1}PFC, cognition and emotional processing}{16}
-\contentsline {subsection}{\numberline {2.4.2}Fnirs and Mental Workload}{16}
-\contentsline {subsection}{\numberline {2.4.3}fNIRS and Emotional Valence}{17}
+\contentsline {subsection}{\numberline {2.4.2}Fnirs and mental workload}{16}
+\contentsline {subsection}{\numberline {2.4.3}fNIRS and emotional valence}{17}
 \contentsline {section}{\numberline {2.5}Summary}{17}
 \contentsline {chapter}{\numberline {3}User study}{18}
 \contentsline {section}{\numberline {3.1}Hypothesis and expectations}{18}
