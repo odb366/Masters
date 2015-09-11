@@ -16,39 +16,39 @@
 \contentsline {subsection}{\numberline {2.4.1}PFC, cognition and emotional processing}{16}
 \contentsline {subsection}{\numberline {2.4.2}Fnirs and mental workload}{16}
 \contentsline {subsection}{\numberline {2.4.3}fNIRS and emotional valence}{17}
-\contentsline {section}{\numberline {2.5}Summary}{17}
-\contentsline {chapter}{\numberline {3}User study}{18}
-\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{18}
-\contentsline {section}{\numberline {3.2}Method}{18}
-\contentsline {subsection}{\numberline {3.2.1}Participants}{18}
-\contentsline {subsection}{\numberline {3.2.2}Apparatus}{18}
-\contentsline {subsubsection}{Laptop computer}{18}
-\contentsline {subsubsection}{fNIRS}{18}
-\contentsline {subsubsection}{Empatica}{19}
-\contentsline {subsection}{\numberline {3.2.3}Materials}{19}
-\contentsline {subsubsection}{NASA TLX}{19}
-\contentsline {subsubsection}{SAM}{19}
-\contentsline {subsubsection}{Web forms}{19}
-\contentsline {subsubsection}{Video capture}{19}
-\contentsline {subsection}{\numberline {3.2.4}Design}{19}
-\contentsline {subsection}{\numberline {3.2.5}Procedure}{19}
-\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{19}
-\contentsline {subsubsection}{Signal acquisition}{19}
-\contentsline {subsubsection}{Preprocessing}{20}
-\contentsline {subsubsection}{Feature Extraction/selection}{20}
-\contentsline {section}{\numberline {3.3}Results}{20}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{20}
-\contentsline {subsubsection}{fNIRS data}{20}
-\contentsline {subsubsection}{NASA-TLX}{21}
-\contentsline {subsubsection}{SAM - arousal scale}{21}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{22}
-\contentsline {subsubsection}{fNIRS differences}{22}
-\contentsline {subsubsection}{SAM emotional valence}{23}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{24}
-\contentsline {chapter}{\numberline {4}Discussion}{25}
-\contentsline {section}{\numberline {4.1}Implications for Design}{25}
-\contentsline {section}{\numberline {4.2}Disadvantages of the study}{25}
-\contentsline {section}{\numberline {4.3}Future work}{25}
-\contentsline {section}{\numberline {4.4}Conclusion}{25}
-\contentsline {chapter}{References}{25}
-\contentsline {chapter}{Appendix}{33}
+\contentsline {section}{\numberline {2.5}Summary}{18}
+\contentsline {chapter}{\numberline {3}User study}{19}
+\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{19}
+\contentsline {section}{\numberline {3.2}Method}{19}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{19}
+\contentsline {subsection}{\numberline {3.2.2}Apparatus}{19}
+\contentsline {subsubsection}{Laptop computer}{19}
+\contentsline {subsubsection}{fNIRS}{19}
+\contentsline {subsubsection}{Empatica}{20}
+\contentsline {subsection}{\numberline {3.2.3}Materials}{20}
+\contentsline {subsubsection}{NASA TLX}{20}
+\contentsline {subsubsection}{SAM}{20}
+\contentsline {subsubsection}{Web forms}{20}
+\contentsline {subsubsection}{Video capture}{20}
+\contentsline {subsection}{\numberline {3.2.4}Design}{20}
+\contentsline {subsection}{\numberline {3.2.5}Procedure}{20}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{20}
+\contentsline {subsubsection}{Signal acquisition}{20}
+\contentsline {subsubsection}{Preprocessing}{21}
+\contentsline {subsubsection}{Feature Extraction/selection}{21}
+\contentsline {section}{\numberline {3.3}Results}{21}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{21}
+\contentsline {subsubsection}{fNIRS data}{21}
+\contentsline {subsubsection}{NASA-TLX}{22}
+\contentsline {subsubsection}{SAM - arousal scale}{22}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{23}
+\contentsline {subsubsection}{fNIRS differences}{23}
+\contentsline {subsubsection}{SAM emotional valence}{24}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{25}
+\contentsline {chapter}{\numberline {4}Discussion}{26}
+\contentsline {section}{\numberline {4.1}Implications for Design}{26}
+\contentsline {section}{\numberline {4.2}Disadvantages of the study}{26}
+\contentsline {section}{\numberline {4.3}Future work}{26}
+\contentsline {section}{\numberline {4.4}Conclusion}{26}
+\contentsline {chapter}{References}{26}
+\contentsline {chapter}{Appendix}{35}
