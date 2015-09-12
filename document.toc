@@ -24,7 +24,6 @@
 \contentsline {subsection}{\numberline {3.2.2}Apparatus}{19}
 \contentsline {subsubsection}{Laptop computer}{19}
 \contentsline {subsubsection}{fNIRS}{19}
-\contentsline {subsubsection}{Empatica}{20}
 \contentsline {subsection}{\numberline {3.2.3}Materials}{20}
 \contentsline {subsubsection}{NASA TLX}{20}
 \contentsline {subsubsection}{SAM}{20}
@@ -34,17 +33,17 @@
 \contentsline {subsection}{\numberline {3.2.5}Procedure}{20}
 \contentsline {subsection}{\numberline {3.2.6}Data Analysis}{20}
 \contentsline {subsubsection}{Signal acquisition}{20}
-\contentsline {subsubsection}{Preprocessing}{21}
+\contentsline {subsubsection}{Preprocessing}{20}
 \contentsline {subsubsection}{Feature Extraction/selection}{21}
 \contentsline {section}{\numberline {3.3}Results}{21}
 \contentsline {subsection}{\numberline {3.3.1}Mental Workload}{21}
 \contentsline {subsubsection}{fNIRS data}{21}
-\contentsline {subsubsection}{NASA-TLX}{22}
-\contentsline {subsubsection}{SAM - arousal scale}{22}
+\contentsline {subsubsection}{NASA-TLX}{21}
+\contentsline {subsubsection}{SAM - arousal scale}{23}
 \contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{23}
 \contentsline {subsubsection}{fNIRS differences}{23}
 \contentsline {subsubsection}{SAM emotional valence}{24}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{25}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{24}
 \contentsline {chapter}{\numberline {4}Discussion}{26}
 \contentsline {section}{\numberline {4.1}Implications for Design}{26}
 \contentsline {section}{\numberline {4.2}Disadvantages of the study}{26}
