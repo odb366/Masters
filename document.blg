@@ -19,5 +19,6 @@ Warning--empty journal in broadbent2
 Warning--can't use both volume and number fields in byers1988workload
 Warning--there's a number but no series in chadwick2003web
 Warning--empty journal in harmon2011toward
+Warning--can't use both volume and number fields in hart2006nasa
 Warning--can't use both volume and number fields in wierwille1983validated
 (There were 3 error messages)

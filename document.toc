@@ -20,42 +20,42 @@
 \contentsline {chapter}{\numberline {3}User study}{19}
 \contentsline {section}{\numberline {3.1}Hypothesis and expectations}{19}
 \contentsline {section}{\numberline {3.2}Method}{19}
-\contentsline {subsection}{\numberline {3.2.1}Participants}{19}
-\contentsline {subsection}{\numberline {3.2.2}Apparatus}{19}
-\contentsline {subsubsection}{Laptop computer}{19}
-\contentsline {subsubsection}{fNIRS}{19}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{20}
+\contentsline {subsection}{\numberline {3.2.2}Apparatus}{20}
+\contentsline {subsubsection}{Laptop computer}{20}
+\contentsline {subsubsection}{fNIRS}{20}
 \contentsline {subsection}{\numberline {3.2.3}Materials}{20}
-\contentsline {subsubsection}{NASA TLX}{20}
-\contentsline {subsubsection}{SAM}{20}
-\contentsline {subsubsection}{Web forms}{20}
-\contentsline {subsubsection}{Video capture}{20}
-\contentsline {subsection}{\numberline {3.2.4}Design}{20}
-\contentsline {subsection}{\numberline {3.2.5}Procedure}{20}
-\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{20}
-\contentsline {subsubsection}{Signal acquisition}{20}
-\contentsline {subsubsection}{Preprocessing}{21}
-\contentsline {subsubsection}{Feature Extraction/selection}{21}
-\contentsline {paragraph}{fNIRS mean Hbo, Hbr, and Hbt data}{21}
-\contentsline {paragraph}{fNIRS mean differences}{21}
-\contentsline {section}{\numberline {3.3}Results}{21}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{21}
-\contentsline {subsubsection}{fNIRS data}{21}
-\contentsline {subsubsection}{NASA-TLX}{23}
-\contentsline {subsubsection}{SAM - arousal scale}{23}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{24}
-\contentsline {subsubsection}{fNIRS differences}{24}
-\contentsline {paragraph}{Data from the period of web form filling}{24}
-\contentsline {paragraph}{Data from the period of video clips}{25}
-\contentsline {subsubsection}{SAM emotional valence}{26}
-\contentsline {paragraph}{Data from the period of web form filling}{26}
+\contentsline {subsubsection}{NASA-TLX}{20}
+\contentsline {subsubsection}{SAM}{21}
+\contentsline {subsubsection}{Web forms}{21}
+\contentsline {subsubsection}{Video capture}{21}
+\contentsline {subsection}{\numberline {3.2.4}Design}{21}
+\contentsline {subsection}{\numberline {3.2.5}Procedure}{21}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{21}
+\contentsline {subsubsection}{Signal acquisition}{22}
+\contentsline {subsubsection}{Preprocessing}{22}
+\contentsline {subsubsection}{Feature Extraction/selection}{22}
+\contentsline {paragraph}{fNIRS mean Hbo, Hbr, and Hbt data}{22}
+\contentsline {paragraph}{fNIRS mean differences}{22}
+\contentsline {section}{\numberline {3.3}Results}{22}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{22}
+\contentsline {subsubsection}{fNIRS data}{22}
+\contentsline {subsubsection}{NASA-TLX}{24}
+\contentsline {subsubsection}{SAM - arousal scale}{24}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{25}
+\contentsline {subsubsection}{fNIRS differences}{25}
+\contentsline {paragraph}{Data from the period of web form filling}{25}
 \contentsline {paragraph}{Data from the period of video clips}{26}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{27}
-\contentsline {subsubsection}{Task completion time}{27}
-\contentsline {subsubsection}{User preferences from the short-interview question}{27}
-\contentsline {chapter}{\numberline {4}Discussion}{28}
-\contentsline {section}{\numberline {4.1}Implications for Design}{28}
-\contentsline {section}{\numberline {4.2}Disadvantages of the study}{28}
-\contentsline {section}{\numberline {4.3}Future work}{28}
-\contentsline {section}{\numberline {4.4}Conclusion}{28}
-\contentsline {chapter}{References}{28}
-\contentsline {chapter}{Appendix}{37}
+\contentsline {subsubsection}{SAM emotional valence}{27}
+\contentsline {paragraph}{Data from the period of web form filling}{27}
+\contentsline {paragraph}{Data from the period of video clips}{27}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{28}
+\contentsline {subsubsection}{Task completion time}{28}
+\contentsline {subsubsection}{User preferences from the short-interview question}{28}
+\contentsline {chapter}{\numberline {4}Discussion}{29}
+\contentsline {section}{\numberline {4.1}Implications for Design}{29}
+\contentsline {section}{\numberline {4.2}Disadvantages of the study}{29}
+\contentsline {section}{\numberline {4.3}Future work}{29}
+\contentsline {section}{\numberline {4.4}Conclusion}{29}
+\contentsline {chapter}{References}{29}
+\contentsline {chapter}{Appendix}{38}

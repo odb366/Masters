@@ -149,6 +149,12 @@
 		\subsection{PFC, cognition and emotional processing}
 		Generally, the prefrontal cortex(PFC) has been associated with higher cognitive functions by studies examining brain damaged individuals\cite{shallice1988neuropsychology,smith1997working}. Also, experiments on healthy subjects using the n-back task\cite{braver1997parametric} have supported this claim. More specifically, activation was observed in the dorsolateral prefrontal cortex (BA 9/46), inferior frontal (BA 6/44) and parietal (BA 7/44) when the task demanded more working memory resources. However, it is difficult to point which brain region is involved with which processes because one brain area is usually involved in multiple cognitive tasks\cite{brown2012common}. Moreover, Yarkoni\cite{yarkoni2011large} supported that claim by reviewing 3489 studies, which considered areas of human brain. Interestingly, activation in the same brain regions (dorsolateral prefrontal cortex, anterior insula and anterior cingulate cortex) was observed in one fifth of the studies. He used a machine learning algorithm and classified different studies into ones that assessed working memory, emotion and pain. It also, can be seen from the graphs that both working memory and emotion processing studies evoked activation in the PFC. Furthermore, individual differences in brain structure exist, especially in the PFC area\cite{thompson2001genetic}. In addition, gender differences in the brain structure are also observed\cite{cosgrove2007evolving}. 
 		
+		%	\begin{figure}[h]
+		%		\centering
+		%		\includegraphics[width=0.7\linewidth]{pfc-brain-areas}
+		%		\caption[PFC brain areas]{The PFC brain arreas. The illustration shows the physical location of the %dorsolateral cortex(blue color), the orbitofrontal cortex(green color) and the ventromedial cortex(red color) of the PFC. Also, the location of amygdala is illustrated with yellow color. The image is obtained from ...}
+		%		\label{fig:pfc-brain-areas}
+		%	\end{figure}
 		There are also evidence that the PFC is involved with emotion processing and emotion regulation\cite{davidson2002anxiety,damasio1996somatic,balconi2012detection}. More specifically, the ventromedial prefrontal cortex is suggested to be involved in the representation of positive and negative emotional states, and the dorsolateral prefrontal cortex in the representation of the goal states towards these affective states are directed. Also, it is suggested that amygdala processes threat stimuli and processes negative affect of fear\cite{davidson2002anxiety}. Furthermore, the orbitofrontal cortex in the PFC has been linked to reward processing and reinforcement learning\cite{rolls2000orbitofrontal}, therefore playing a role in the assignment in emotional valence and intrinsic motivation.
 		
 		Davidson proposed the ``valence asymmetry hypothesis'' which states that positive affect which is linked to approach motivation is experienced when the left frontal cortical region has higher activation than the right. In contrast, negative affect which is linked to avoidance motivation is experienced when more activation is observed in the right frontal cortical region compared to the left. Also, the valence model of emotions by Russell\cite{russell2003core} supports this hypothesis. Consequently, we are interested in using fNIRS in order to measure the activations in left and right frontal hemispheres and interpret the results using the \textit{valence asymmetry hypothesis}. We will review more relative studies that used fNIRS to investigate the relationship between left and right hemispheres in the ``fNIRS and Emotional Valence'' subsection below. 
@@ -172,37 +178,47 @@
 			However, the above mentioned studies are designed to induce emotions, but want to study the opposite effect: can we obtain emotional valence rating from neutral web interface using fNIRS, and then infer which of the variations was objectively more preferred?
 
 	\section{Summary}
-		To sum up, many researchers do not consider the positive or negative affective state during task execution, and how it influences operator performance and perceived workload, we have combined multidimensional subjective scale (NASA-TLX) with emotional valence scale (SAM). We strive to find correlations between these subjective measures and the objective measure of the mean Hbo from the fNIRS device. 
-		
-		We expect to gain better understanding of the operator performance and motivation during the web form filling task.
+		To sum up, many researchers do not consider the positive or negative affective state during task execution, and how it influences operator performance and perceived workload, we have combined multidimensional subjective workload scale (NASA-TLX) with emotional valence scale (SAM). We expect to gain better understanding of the operator performance and motivation during the web form filling task. Also, we expect to find correlations between these subjective measures and the objective measure of the mean Hbo from the fNIRS device because they are both suggested to measure mental workload and emotional valence. 
 
-		We are aiming to reduce to imposed load by the task by minimizing the visual search(condition3) and aiding the episodical memory by placing a description in the beginning of the form.
+		
 \chapter{User study}
 	\section{Hypothesis and expectations}
 	Based on the literature review we state the following hypothesis:\\
 	1) There is significant statistical difference between the three web forms\\
 	2) Subjective data from NASA-TLX correlates to objective data from the fNIRS\\
-	3) The difference in left and right hemisphere activations correlate to subjective SAM scale of emotional valence\\	
+	3) The difference in left and right hemisphere activations correlate to subjective SAM scale of emotional valence\\
+	
+	We are aiming to reduce to imposed load by the task by minimizing the visual search(index3) and aiding the episodic memory by placing a description in the beginning of the web form(index2) compared to the control condition(index1). Thus, we expect to find differences between the three conditions. Because the number of attended cues affects the operator performance, we decided to split the web form into 3 pages, in order to minimize visual search and clutter. 
+	
+	Hypothesis 2 was drawn from the fact that both NASA-TLX and the mean Hbo data from fNIRS have been successfully used to measure the concept of mental workload, therefore, we expect to find correlations between the two measures.
+	
+	In addition, because fNIRS can measure the left and right hemisphere activation, which is correlated to positive and negative affect based on the valence asymmetry hypothesis, thus we can infer about the affective and motivational state of the participant. And also, hypothesis 3 was stated because the subjective SAM scale is valid measure for obtaining emotional valence(the affective state), we expect to find correlations between the SAM and left/right hemisphere Hbo activation.
+	
+	
 	\section{Method}
-	We have use fNIRS because it is non-intrusive, motion artefact resistant, and with high temporal resolution and thus suitable for user trials. We combine the objective measure of fNIRS with the subjective NASA-TLX and SAM measures, as they are validated and reliable methods.
-	Describe why I have used the following methods, including the perceived benefits of your approach\cite{preferences-study}.
+	We have use fNIRS because it is non-intrusive, motion artefact resistant, and with high temporal resolution and, thus suitable for using in user trials. We combine the objective measure of fNIRS with the subjective NASA-TLX and SAM measures, as they are validated and reliable methods. This way we gather comprehensive information about how participants perceive the interfaces and relate it to the psychophysiological data. Also, using fNIRS is novel method for conducting usability studies, and we also, aim to assess its practicality in this kind of HCI evaluation studies.
+
 		\subsection{Participants}
+		A total of 20 right handed participants (9 female) with mean age of 26 (SD = 4.04) took part in the study. All of the participant were healthy, however only one pointed that it suffers ``von willebraud disease'' which impairs blood's ability to clot, and his data from the psychophysiological measures was excluded. All participants had normal or corrected to normal vision, and report no history of brain damage. Also, 14 of them reported they have advanced computer literacy, 5 of them stated average computer literacy and 1 did not answer this question. All of the participants were current or graduated students. The ethics committee of the University of Nottingham approved this study. Informed consent was obtained from the participants and they were compensated with £10 Amazon voucher.
 		\subsection{Apparatus}
 			\subsubsection{Laptop computer}
-			The experiment was executed on 15" laptop, HP probook 450 with screen resolution 1366x768. The participant was presented with a screen with links to the three different videos and web forms. They were instructed by the researcher to manually start certain condition or video. 
+			The experiment was executed on 15" laptop, HP probook 450 with screen resolution 1366x768. An external mouse was attached, which participants used during the process. The participant was presented with a screen with links to the three different videos and web forms. They were instructed by the researcher to manually start certain condition or video. 
 			\subsubsection{fNIRS}
-			Picture of fNIRS\\
-			730nm and 850nm wavelengths will be collected for each voxel, eliminating the ambient light. . However, if the data acquisition computer does not have enough bandwidth,
-			one or more of the quadrants can be disabled to maintain 2Hz sampling rate. 
+			%(Picture of fNIRS)-can I use the one from the TAP paper?\\
+			Hemodynamic data was recorded using the fNIRS300 device along with the COBI studio recording software developed by Biopac Systems inc. The device consists of a headband with 4 infrared LED emitters and 10 infrared detectors. They operated on 730nm and 850nm wavelengths. The combination between them was used to calculate 16 channels which can measure the associated Hbo and Hbr concentration in the PFC. The fNIRS device was placed on the forehead of the participants targeting the dorsolateral(BA 9/46) and orbitofrontal(BA 10) cortices. The sampling rate was 2Hz.
+			
         \subsection{Materials}
-			\subsubsection{NASA TLX}
+			\subsubsection{NASA-TLX}
+			The NASA-TLX\cite{nasatlx} is multidimensional subjective scale and it is used as a tool for assessing operator workload based weighted average of its six scales. The individual scales are presented in the following order: Mental demand, Physical demand, Temporal demand, Performance, Effort, and Frustration. We used the paper version of the questionnaire. The NASA-TLX measures were obtained from participants each time after completing one of the web form conditions. We did not follow the weighting procedure because it was time consuming, and instead we calculated the mean values of all individual subscales, which is suggested to be also, a valid measure\cite{hart2006nasa}, and we refer to this variable as ``total tlx''. Furthermore, each of the individual subscales was analysed independently.
 			\subsubsection{SAM}
 			\subsubsection{Web forms}
 			\subsubsection{Video capture}
 		\subsection{Design}
 		The study used repeated measures within subjects design. The three variations of videos and the web forms were counterbalanced using latin square rotation, in order to avoid learning effects from the order of presentation of the video clips.
+		
 		Performance measure - characters written in the description field
 		\subsection{Procedure}
+		(Picture)
 		First, participants were asked to read and sign information sheet and consent forms. Second, the Empatica E3 and fNIRS devices were cleaned then equipped and started. Third, participants were briefed about the procedure of the experiment, and it was explained how to fill the subjective scales. Also, because of ethical considerations that the participant should not enter personal data in the web form, a fake personal credentials were provided, that she should fill in the web forms. Fourth, after the video capture, fnirs and empatica devices started recording data, participants were asked to open one of the three videos, depending on the counterbalancing table. After the video was finished, participants fill SAM subjective scale. Fifth, there was approximately 2 minute waiting period so that participant's memory is not fresh before she was asked to open one of the three web forms, again depending on the order from the counterbalancing table. Finally, after participant has completed the web form, the SAM and then the NASA-TLX scales are given to be completed, accordingly. This process was repeated three times, following the within subjects experimental design.
 		Before each experiment, the clocks between the two computers (the one that was obtaining the information and one that participant worked on) were synchronized. Also, timestamps using the Cobi Studio software manual markers were created in the beginning and end of each condition and video. 
 		\subsection{Data Analysis}
