@@ -29,19 +29,19 @@
 \contentsline {subsubsection}{Self assessment manikin scale (SAM)}{21}
 \contentsline {subsubsection}{Web forms}{21}
 \contentsline {subsubsection}{Video capture}{21}
-\contentsline {subsection}{\numberline {3.2.4}Design}{21}
+\contentsline {subsection}{\numberline {3.2.4}Design}{22}
 \contentsline {subsection}{\numberline {3.2.5}Procedure}{22}
-\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{22}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{23}
 \contentsline {subsubsection}{Signal acquisition}{23}
 \contentsline {subsubsection}{Preprocessing}{23}
 \contentsline {subsubsection}{Feature Extraction/selection}{23}
 \contentsline {paragraph}{fNIRS mean Hbo, Hbr, and Hbt data}{23}
 \contentsline {paragraph}{fNIRS mean differences}{23}
-\contentsline {section}{\numberline {3.3}Results}{23}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{23}
-\contentsline {subsubsection}{fNIRS data}{23}
+\contentsline {section}{\numberline {3.3}Results}{24}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{24}
+\contentsline {subsubsection}{fNIRS data}{24}
 \contentsline {subsubsection}{NASA-TLX}{25}
-\contentsline {subsubsection}{SAM - arousal scale}{25}
+\contentsline {subsubsection}{SAM - arousal scale}{26}
 \contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{26}
 \contentsline {subsubsection}{fNIRS differences}{26}
 \contentsline {paragraph}{Data from the period of web form filling}{26}
@@ -49,13 +49,13 @@
 \contentsline {subsubsection}{SAM emotional valence}{28}
 \contentsline {paragraph}{Data from the period of web form filling}{28}
 \contentsline {paragraph}{Data from the period of video clips}{28}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{29}
-\contentsline {subsubsection}{Task completion time}{29}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{28}
+\contentsline {subsubsection}{Task completion time}{28}
 \contentsline {subsubsection}{User preferences from the short-interview question}{29}
-\contentsline {chapter}{\numberline {4}Discussion}{30}
-\contentsline {section}{\numberline {4.1}Implications for Design}{30}
-\contentsline {section}{\numberline {4.2}Disadvantages of the study}{30}
-\contentsline {section}{\numberline {4.3}Future work}{30}
-\contentsline {section}{\numberline {4.4}Conclusion}{30}
-\contentsline {chapter}{References}{30}
-\contentsline {chapter}{Appendix}{39}
+\contentsline {chapter}{\numberline {4}Discussion}{31}
+\contentsline {section}{\numberline {4.1}Implications for Design}{31}
+\contentsline {section}{\numberline {4.2}Disadvantages of the study}{31}
+\contentsline {section}{\numberline {4.3}Future work}{31}
+\contentsline {section}{\numberline {4.4}Conclusion}{31}
+\contentsline {chapter}{References}{31}
+\contentsline {chapter}{Appendix}{40}
