@@ -1,4 +1,9 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{ayazfunctional}
+Hasan Ayaz.
+\newblock Functional near infrared spectroscopy based brain computer interface.
+\newblock {\em PhD Thesis, Drexel University, Philadelphia, PA}, 2010.
 
 \bibitem{ayaz2012optical}
 Hasan Ayaz, Patricia~A Shewokis, Scott Bunce, Kurtulus Izzetoglu, Ben Willems,
@@ -252,6 +257,11 @@ Christina Hirth, Hellmuth Obrig, Kersten Villringer, Andeas Thiel, Johannes
 \newblock Non-invasive functional mapping of the human motor cortex using
   near-infrared spectroscopy.
 \newblock {\em Neuroreport}, 7(12):1977--1981, 1996.
+
+\bibitem{wickenshollands1999}
+Justin~G Hollands and Christopher~D Wickens.
+\newblock Engineering psychology and human performance.
+\newblock {\em Journal of surgical oncology}, 1999.
 
 \bibitem{huppert2006temporal}
 TJ~Huppert, RD~Hoge, SG~Diamond, Maria~Angela Franceschini, and David~A Boas.
@@ -582,6 +592,11 @@ Walter~W Wierwille and John~G Casali.
 \newblock In {\em Proceedings of the Human Factors and Ergonomics Society
   Annual Meeting}, volume~27, pages 129--133. Sage Publications, 1983.
 
+\bibitem{wilson2015evaluation}
+John~R Wilson and Sarah Sharples.
+\newblock {\em Evaluation of human work}.
+\newblock CRC Press, 2015.
+
 \bibitem{wroblewski2008web}
 Luke Wroblewski.
 \newblock {\em Web form design: filling in the blanks}.
@@ -600,11 +615,5 @@ Tal Yarkoni, Russell~A Poldrack, Thomas~E Nichols, David~C Van~Essen, and Tor~D
 \newblock Large-scale automated synthesis of human functional neuroimaging
   data.
 \newblock {\em Nature methods}, 8(8):665--670, 2011.
-
-\bibitem{ye2009nirs}
-Jong~Chul Ye, Sungho Tak, Kwang~Eun Jang, Jinwook Jung, and Jaeduck Jang.
-\newblock Nirs-spm: statistical parametric mapping for near-infrared
-  spectroscopy.
-\newblock {\em Neuroimage}, 44(2):428--447, 2009.
 
 \end{thebibliography}

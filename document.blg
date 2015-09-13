@@ -1,19 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
 The style file: plain.bst
 Database file #1: exmplref.bib
-Repeated entry---line 1166 of file exmplref.bib
- : @article{norman1975data
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1521 of file exmplref.bib
+Repeated entry---line 1505 of file exmplref.bib
  : @article{brattico2011functional
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1841 of file exmplref.bib
+Repeated entry---line 1825 of file exmplref.bib
  : @article{plichta2006event
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "wilson2015evaluation"
 Warning--empty journal in broadbent1
 Warning--empty journal in broadbent2
 Warning--can't use both volume and number fields in byers1988workload
@@ -21,4 +16,4 @@ Warning--there's a number but no series in chadwick2003web
 Warning--empty journal in harmon2011toward
 Warning--can't use both volume and number fields in hart2006nasa
 Warning--can't use both volume and number fields in wierwille1983validated
-(There were 3 error messages)
+(There were 2 error messages)
