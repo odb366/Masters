@@ -4,6 +4,7 @@
 \author{Kristiyan Lukanov}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{color,soul}
 \usepackage{caption} 
 \captionsetup[table]{skip=10pt}
 \renewcommand{\bibname}{References}
@@ -206,30 +207,41 @@
 		Before each experiment, the clocks between the two computers (the one that was obtaining the information and one that participant worked on) were synchronized. Also, timestamps using the Cobi Studio software manual markers were created in the beginning and end of each condition and video. 
 		\subsection{Data Analysis}
 		The fNIRS data was analyzed with NIRS-SPM\cite{ye2009nirs}		
+		fNIRS data from n=1 participant was excluded from the analysis because of ``von willebraud disease'' which is known to alter the signal. Also, data from another n=8 participants was excluded due to the fNIRS apparatus not able to detect signal from the channels for those participants. When calculating the correlation between fNIRS data and other measurements we excluded the data from these 9 problematic participants from the subjective or performance measures accordingly.
 			\subsubsection{Signal acquisition}
-			What is the task - it is not mental aritmetic, or mental imagery, it is complex web form filling task.
+			Data was obtained during the process of web form filling which can be defined as complex cognition because it involves a number of cognitive processes like, memory recall, attention, decision making, motor function, and others. What is the task - it is not mental aritmetic, or mental imagery, it is complex web form filling task.
+			Also, visual perception and attention were recorded participants watched the videos 
 			\subsubsection{Preprocessing}
 			Instrument noise was reduced by placing a hat over the fNIRS headband, in order to block external light.
 			First, low-pass filter with cut off frequencies of 0.1 Hz, was used in order to remove physiological noise, like heartbeat and blood flow movement that is not associated with brain activity or Mayer waves.
 			Then, the NIRS signal was processed with modified Beer-Lambert law\cite{cope1988system}, in order to calculate oxygenated, and deoxygenated hemoglobin values.
 			Finally, to remove motion artefacts, the correlation based signal improvement(CBSI)\cite{cui2010functional} method was applied to the data.
 			\subsubsection{Feature Extraction/selection}
-			After data preprocessing we should choose what features we will use to evaluate our data - mean values of oxy-Hb, mean values of oxy-Hb for all channels, skewness, variance
+				\paragraph{fNIRS mean Hbo, Hbr, and Hbt data}\leavevmode\\
+				After data preprocessing the mean, and standard deviation for Hbo, Hbr and Hbt data was calculated from all channels, in order to infer about activation in the participants PFC. Hbo has been suggested to positively correlate to mental workload, in contrast to Hbr which is proposed to have negative correlation to mental workload.
+
+				\paragraph{fNIRS mean differences}\leavevmode\\
+				To calculate the left versus right hemisphere activation from the fNIRS we subtracted the mean data from channels 1-8, which are situated at the left side of the participants PFC, from the mean data of channels 9-16 which are on the right side of the PFC. That gave us the difference value between the left and right hemisphere. It indicates that the higher the mean difference value the more positive affect or affordance motivation the web form elicited. And the opposite pattern: the lower the mean difference the more negative affect or avoidance motivation the participant experience according to the valence asymmetry hypothesis.
+				
 	\section{Results}
 		\subsection{Mental Workload}
-			\subsubsection{fNIRS data}	
-			A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in mean Hbo values between the three web forms. The assumption of sphericity was met, as assessed by Mauchly's test of sphericity, $X^{2}(2) = 0.195, p = 0.907$. There was no significant statistical difference in the mean Hbo between the 3 web forms  $F(2,20)=3.400, p<.054,$ partial $\eta^{2}=.254$ with mean Hbo decreasing from 0.2377 (SD = 1.19) in index3 to -0.1166 (SD = 0.82) and -0.117 (SD = 1) for index2 and index1 respectfully.
-			After conducting t-tests between index1 and index3 there was found a marginal statistical difference p=0.054. Which means that the measured Hbo between the two versions has a 94.6\% statistical chance that the difference is not caused by random sampling error. However, we fail to reject the first null hypothesis. This means that we could not find a statistically significant interaction, however we were very close to statistical significance, as p=0.054 and we can assume we have marginal statistical significance.
-				\begin{figure}[h]
-					\centering
-					\includegraphics[width=0.7\linewidth]{mean-hbo-index123}
-					\caption[Mean oxygenated hemoglobin between the three web forms]{}
-					\label{fig:mean-hbo-index123}
-				\end{figure}	
-			No statistical significance was found when comparing the means of Hbr between the three conditions $F(2,20)=2.044, p<.156,$ partial $\eta^{2}=.170$ where index2 had the highest Hbr mean 0.05 (SD = 0.85), index1 with -0.07 (SD = 0.96) and index3 with the lowest Hbr mean -0.36 (SD = 1.43). Also, a repeated measures ANOVA test was conducted to elicit significant statistical differences between mean Hbt between the three web forms, however no statistical significance was found $F(2,20)=0.685, p<.516,$ partial $\eta^{2}=.064$ where index2 had the highest Hbt mean -0.08 (SD = 0.49), index3 with -0.13 (SD = 0.58) and index1 with the lowest mean Hbt -0.19 (SD = 0.49). The results indicate that Hbo was more responsive for this experiment and gave us higher significance between condition compared to Hbr and Hbt. 
+			\subsubsection{fNIRS data}
+			A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in mean Hbo values between the three web forms. The assumption of sphericity was met, as assessed by Mauchly's test of sphericity, $X^{2}(2) = 0.195, p = 0.907$. There was no significant statistical difference in the mean Hbo between the 3 web forms  $F(2,20)=3.400, p<.054,$ partial $\eta^{2}=.254$ with mean Hbo decreasing from 0.2377 (SD = 1.19) in index3 to -0.1166 (SD = 0.82) and -0.117 (SD = 1) for index2 and index1 respectfully. Which means that index3 indicates the highest workload, compared to the rest of the conditions.
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{mean-hbo-index123}
+				\caption[mean Hbo activation between the three web forms]{Mean Hbo activation between the three web form conditions as measured by fNIRS. Higher Hbo values indicates higher mental workload experienced by the operator.}
+				\label{fig:mean-hbo-index123}
+			\end{figure}
+			After conducting t-tests between index1 and index3 there was found a marginal statistical difference p=0.054. Which means that the measured Hbo between the two versions has a 94.6\% statistical probability that the difference are not caused by random sampling error. However, we fail to reject the first null hypothesis. This means that we could not find a statistically significant interaction, however we were very close to statistical significance, as p=0.054 and we can assume we have marginal statistical significance.
+	
+			Also, no statistical significance was found when comparing the means of Hbr between the three conditions $F(2,20)=2.044, p<.156,$ partial $\eta^{2}=.170$ where index2 had the highest Hbr mean 0.05 (SD = 0.85), index1 with -0.07 (SD = 0.96) and index3 with the lowest Hbr mean -0.36 (SD = 1.43). Which, accordingly negatively correlated to Hbo data, and again indicated that index3 evoke the highest workload than the other conditions. Furthermore, a repeated measures ANOVA test was conducted to elicit significant statistical differences between mean Hbt between the three web forms, however no statistical significance was found $F(2,20)=0.685, p<.516,$ partial $\eta^{2}=.064$ where index2 had the highest Hbt mean -0.08 (SD = 0.49), index3 with -0.13 (SD = 0.58) and index1 with the lowest mean Hbt -0.19 (SD = 0.49). The results indicate that Hbo was more responsive for this experiment and gave us higher significance between condition compared to Hbr and Hbt. 
+			No correlation was found between the fNIRS mean data and any of the NASA-TLX scales, including the calculated total tlx. As a result, we fail to reject the second null hypothesis which states there is no difference between objective data from fNIRS and subjective data from NASA-TLX.
 			\subsubsection{NASA-TLX}
+				We report data for the NASA-TLX measure for all of the participants without excluding anyone because there was no problem with obtaining the data for this measure.
 				There was no statistical significance between each of the NASA-TLX scales, including the total$F(2,38)=0.743, p<.482,$ partial $\eta^{2}=.038$ score as assessed by one way repeated measures ANOVA. Which means statistically we have 51.8\% chance of the results of the total NASA-TLX score to be caused by random sampling error. Also, perceived mean mental demand was lowest for index1 9.15 (SD = 4.94), index2 had slightly higher mean 9.40 (SD = 4.68) and index3 has the highest scores 10.8 (SD = 5.38). Also, mental demand had a strong positive correlation with total tlx for the 3 conditions $r(18)=0.652, p=0.002$, $r(18)=0.738, p<0.001$, and $r(18)=0.741, p<0.001$ for index1, index2 and index3 respectfully. Which supports the validity of NASA-TLX measurements. The total calculated value for the NASA-TLX was highest for index3 7.07 (SD = 3.22) decreasing to 6.92 (SD = 2.95) for index1 and 6.47 (SD = 3.11) for index2. This means that index3 requires slightly more attentional resources to complete the task compared to index1 and index2.
-				There was a moderate positive correlation between mental demand scales and task completion times between the three conditions  $r(18)=0.487, p=0.030,  r(18)=0.484, p=0.030,  r(18)=0.638, p=0.002$. This means the more participants perceived higher workload the more their performance dropped as it took them more time to complete the task.
+				There was a moderate positive correlation between mental demand scales and task completion times between the three conditions  $r(18)=0.487, p=0.030,  r(18)=0.484, p=0.030,  r(18)=0.638, p=0.002$. The results show that the more participants perceived higher workload the more their performance dropped as it took them more time to complete the task.
+				
 				\begin{table}[h]
 					\centering
 					\caption{NASA-TLX mean scores}
@@ -247,36 +259,60 @@
 				\end{table}
 	
 			\subsubsection{SAM - arousal scale}
-			The perceived arousal was lowest for index1 2.8 (SD = 0.95) increasing to 2.95 (SD = 1.05) for index2 and to 3.15 (SD = 1.18) for index3 respectfully. No statistical significance was found when comparing the means between the three conditions $F(2,38)=2.462, p<0.099$ partial $\eta^{2}=.115$ using one way repeated measures ANOVA. However, after running post hoc test without adjustments(LSD) a statistically significant difference was found between index1 and index3 $p=0.049$.
-			Also, the time to complete index1 and index2 positively correlated to perceived arousal for index 1 and index2:$r(18)=0.551, p=0.012$ and $r(18)=0.473, p=0.035$. However time to complete index3 does not correlate to perceived arousal of index3 $r(18)=0.269, p=0.252$.
+			As it can be seen from Figure~\ref{fig:sam-arrousal-index123} the perceived arousal was lowest for index1 2.8 (SD = 0.95) increasing to 2.95 (SD = 1.05) for index2 and to 3.15 (SD = 1.18) for index3 respectfully. No statistical significance was found when comparing the means between the three conditions $F(2,38)=2.462, p<0.099$ partial $\eta^{2}=.115$ using one way repeated measures ANOVA. However, after running post hoc test without adjustments(LSD) a statistically significant difference was found between index1 and index3 $p=0.049$. Which means that perceived arousal was significantly higher for index3 compared to index1.
+			Also, the time to complete index1 and index2 positively correlated to perceived arousal for index 1 and index2:$r(18)=0.551, p=0.012$ and $r(18)=0.473, p=0.035$. However time to complete index3 does not correlate to perceived arousal of index3 $r(18)=0.269, p=0.252$. Which indicates that we have a partial positive correlation between the perceived arousal, which can be considered as workload, for the web forms and the time to complete them.
+			
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{sam-arrousal-index123}
+				\caption[SAM arrousal between the three web forms]{The mean SAM arrousal rating obtained from the three web form conditions.}
+				\label{fig:sam-arrousal-index123}
+			\end{figure}
 			
 		\subsection{Emotional Valence}
 			\subsubsection{fNIRS differences}
-			WEB FORMS\\			
+			\paragraph{Data from the period of web form filling}\leavevmode\\
 				\begin{figure}[h]
 					\centering
 					\includegraphics[width=0.7\linewidth]{hbo-valence-differences-index123}
-					\caption{}
+					\caption[Hbo valence differences between the three web forms]{The mean Hbo valence differences obtained from the fNIRS for the three web form conditions. Higher values indicate more positive affect, and lower value more negative affect.}
 					\label{fig:hbo-valence-differences-index123}
-				\end{figure}
-				The fnirs Hbo valence differences was highest for index3 -0.12 (SD = 1.25) decreasing to -0.15 (SD = 1.31) for index1 and the lowest value was for  index2 -0.26 (SD = 1.13).
-				The Hbr valence differences were highest for index2 0.34 (SD = 1.18) decreasing to 0.18 (SD = 1.39) for index3 and to 0.10 (SD = 1.68) for index1.
-				The Hbt mean valence difference values for index1 were lower -0.45 (SD = 0.79) compared to index2 0.06 (SD = 0.56) and index3 0.05 (SD = 0.87) respectfully. There was no statistical significance as assessed by one way repeated measures ANOVA between the three conditions for Hbo valence differences: $F(2,20)=0.392, p<0.681,$ partial $\eta^{2}=.038$ , Hbr valence differences: $F(2,20)=0.418, p<0.664,$ partial $\eta^{2}=.040$ and Hbt valence differences: $F(2,20)=0.302, p<0.743,$ partial $\eta^{2}=.029$. Also, there was strong positive correlation between temporal NASA-TLX scale of index1 and the Hbo valence differences of index1 $r(9)=0.766, p=0.006$, however, there was no correlation found between index2: $r(9)=0.581, p=0.061$ and index3: $r(9)=0.218, p=0.519$.\\
-			VIDEOS\\
-				The mean Hbo valence difference for video3 was the highest with 0.17 (SD= 0.25) compared to video1 with -0.01 (SD = 1.32) and video2 with -0.8 (SD = 1.20). In contrast, mean Hbr valence difference values for video3 were the lowest with -0.25 (SD = 0.47) compared to video1 0.30 (SD = 1.20) and video2 0.32 (SD = 0.89). For the mean Hbt valence difference values video1 was the highest with 0.18 (SD = 0.71) decreasing to 0.07 (SD = 0.64) for video3 and to -0.06 (SD = 0.35) for video2.\\
-				A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in Hbo, Hbr and Hbt valence differences between the three videos. There was no significant statistical difference in the mean Hbo valence difference between the 3 videos $F(2,20)=0.051, p<0.951,$ partial $\eta^{2}=.005$, the mean Hbr valence difference: $F(2,20)=0.062, p<0.940,$ partial $\eta^{2}=.006$ and the mean Hbt valence difference: $F(2,20)=0.522, p<0.601,$ partial $\eta^{2}=.050$.
-				There was no correlation found between Hbo valence differences and SAM emotional valence subjective scale for the three videos $r(9)=-0.490, p=0.126$; $r(9)=0.095, p=0.781$; $r(9)=0.496, p=0.121$. 
+				\end{figure}									
+				To begin with, Figure \ref{fig:hbo-valence-differences-index123} shows the valence differences in Hbo concentration between the left and right hemispheres. fNIRS Hbo valence differences was highest for index3 -0.12 (SD = 1.25) decreasing to -0.15 (SD = 1.31) for index1 and the lowest value was for index2 -0.26 (SD = 1.13). Indicating that participants experienced the most positive when completing the index3 condition, slightly less positive for index1 and the least positive when completing index2. However significant statistical difference was not found $F(2,20)=0.392, p<0.681,$ partial $\eta^{2}=.038$ as assessed by one-way repeated measures ANOVA.
+
+				The Hbr valence differences were highest for index2 0.34 (SD = 1.18) decreasing to 0.18 (SD = 1.39) for index3 and to 0.10 (SD = 1.68) for index1. Signifying that index2 elicited the most negative affect compared to the rest of the conditions. However, the difference was not statistically significant.
+				The Hbt mean valence difference values for index1 were lower -0.45 (SD = 0.79) compared to index2 0.06 (SD = 0.56) and index3 0.05 (SD = 0.87) respectfully. There was no statistical significance as assessed by one way repeated measures ANOVA between the three conditions for Hbr valence differences: $F(2,20)=0.418, p<0.664,$ partial $\eta^{2}=.040$ and Hbt valence differences: $F(2,20)=0.302, p<0.743,$ partial $\eta^{2}=.029$. Also, there was strong positive correlation between temporal NASA-TLX scale of index1 and the Hbo valence differences of index1 $r(9)=0.766, p=0.006$, however, there was no correlation found between index2: $r(9)=0.581, p=0.061$ and index3: $r(9)=0.218, p=0.519$ which suggests that as participants perceived more temporal demand the obtained mean Hbo data increased.\\
+				
+			\paragraph{Data from the period of video clips}\leavevmode\\
+				The mean Hbo valence difference for video3 was the highest with 0.17 (SD= 0.25) compared to video1 with -0.01 (SD = 1.32) and video2 with -0.8 (SD = 1.20), suggesting that participants experienced more positive emotion when watching video3 compared to video1 and video2. In contrast, mean Hbr valence difference values for video3 were the lowest with -0.25 (SD = 0.47) compared to video1 0.30 (SD = 1.20) and video2 0.32 (SD = 0.89). For the mean Hbt valence difference values video1 was the highest with 0.18 (SD = 0.71) decreasing to 0.07 (SD = 0.64) for video3 and to -0.06 (SD = 0.35) for video2.\\
+				A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in Hbo, Hbr and Hbt valence differences between the three videos. There was no significant statistical difference in the mean Hbo valence difference between the 3 videos $F(2,20)=0.051, p<0.951,$ partial $\eta^{2}=.005$, the mean Hbr valence difference: $F(2,20)=0.062, p<0.940,$ partial $\eta^{2}=.006$ and the mean Hbt valence difference: $F(2,20)=0.522, p<0.601,$ partial $\eta^{2}=.050$. Consequently, we cannot find significant difference in the emotional valence from the objective data between the three videos.
+				There was no correlation found between Hbo valence differences and SAM emotional valence subjective scale for the three videos $r(9)=-0.490, p=0.126$; $r(9)=0.095, p=0.781$; $r(9)=0.496, p=0.121$. As a result, we fail to reject the third null hypothesis, which states that there is no correlation between the fNIRS valence difference data and the SAM subjective scale of emotional valence.
+
 			\subsubsection{SAM emotional valence}
-			WEB FORMS\\
+			\paragraph{Data from the period of web form filling}\leavevmode\\
 				The perceived mean emotional valence for index1 was the lowest with 
-				3.1 (SD = 0.97) increasing to 3.4 (SD = 0.99) for index2 and to 3.7 (SD = 0.98) for index3.
-				A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in SAM emotional valence scale values between the three web forms. The assumption of sphericity was met, as assessed by Mauchly's test of sphericity, $X^{2}(2) = 0.446, p = 0.800$. There was no significant statistical difference in the SAM emotional valence scale between the 3 web forms  $F(2,38)=2.803, p<.073,$ partial $\eta^{2}=.129$ with mean SAM emotional valence increasing from 3.1$\pm$0.97 in index1 to 3.4$\pm$0.99 and 3.7$\pm$0.98 for index2 and index3 respectfully.\\
-			VIDEOS\\
-				The perceived mean emotional valence for video3 was the highest with 3.1 (SD = 1.07) decreasing to 2.9 (SD = 1.33) for video1, and 2.7 (SD = 0.98) for video3. There was no statistical significance as assessed by one way repeated measures ANOVA between the three videos for SAM emotional valence: $F(2,38)=0.792, p<0.460,$ partial $\eta^{2}=.040$.
+				3.1 (SD = 0.97) increasing to 3.4 (SD = 0.99) for index2 and to 3.7 (SD = 0.98) for index3, as it can be seen from Figure \ref{fig:sam-valence-index123}.
+				A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in SAM emotional valence scale values between the three web forms. The assumption of sphericity was met, as assessed by Mauchly's test of sphericity, $X^{2}(2) = 0.446, p = 0.800$. There was no significant statistical difference in the SAM emotional valence scale between the 3 web forms  $F(2,38)=2.803, p<.073,$ partial $\eta^{2}=0.129$ with mean SAM emotional valence increasing from 3.1$\pm$0.97 in index1 to 3.4$\pm$0.99 and 3.7$\pm$0.98 for index2 and index3 respectfully. This means we cannot distinguish which web form participants perceived as more positive or negative, however we had marginal statistical significance which gives us high probability that the results were not being biased by random sampling error.	
+				\begin{figure}[h]
+					\centering
+					\includegraphics[width=0.7\linewidth]{sam-valence-index123}
+					\caption{}
+					\label{fig:sam-valence-index123}
+				\end{figure}
+			\paragraph{Data from the period of video clips}\leavevmode\\
+				The perceived mean emotional valence for video3 was the highest with 3.1 (SD = 1.07) decreasing to 2.9 (SD = 1.33) for video1, and 2.7 (SD = 0.98) for video3. There was no statistical significance as assessed by one way repeated measures ANOVA between the three videos for SAM emotional valence: $F(2,38)=0.792, p<0.460,$ partial $\eta^{2}=.040$. The data suggest that we cannot compare the perceived emotional valence between the 3 video due to high chance of the results being caused by random sampling error.
 		\subsection{User performance and preferences}
-		The mean time to complete index2 was the lowest 214.88 (SD = 63.81) increasing to 228.79 (SD = 65.19) for index1 and to 231.60 (SD = 83.33) for index3. However, users mostly preferred index3 and index1 with 10 and 9 votes respectively compared to index2 which was preferred by 3 participants.  
-		A one-way repeated measures ANOVA was conducted to determine whether there was a statistically significant difference in time to complete between the three web forms. There was no significant statistical difference in time to complete between the 3 web forms  $F(2,38)=0.556, p<.578,$ partial $\eta^{2}=.028$. 
-		Also, the time to complete index2 and index3 had a strong positive correlation with perceived effort(NASA-TLX) for index2 and index3: $r(18)=0.702, p=0.016,$ and $r(18)=0.634, p=0.036,$. However, time to complete index1 does not correlate to perceived effort of index1 $r(18)=0.216, p=0.524$
+			\subsubsection{Task completion time}		
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{mean-task-completion-time}
+				\caption[Task completion time between the three web forms]{Mean task completion time between the three web forms}
+				\label{fig:mean-task-completion-time}
+			\end{figure}
+			It can be seen from Figure\ref{fig:mean-task-completion-time} that the mean time to complete index2 was the lowest 214.88 (SD = 63.81) increasing to 228.79 (SD = 65.19) for index1 and to 231.60 (SD = 83.33) for index3. However, there was no significant statistical difference in time to complete between the 3 web forms $F(2,38)=0.556, p<.578,$ partial $\eta^{2}=.028$, as assessed by one-way repeated measures ANOVA. The results indicate that the performance was lowest when participants completed index3, slightly higher for index1 and the highest for index2.
+			Also, the time to complete index2 and index3 had a strong positive correlation with perceived effort(NASA-TLX) for index2 and index3: $r(18)=0.702, p=0.016$ and $r(18)=0.634, p=0.036$. However, time to complete index1 does not correlate to perceived effort of index1 $r(18)=0.216, p=0.524$. This suggests that when participants perceived more effort it took them more time to complete the web form.
+			\subsubsection{User preferences from the short-interview question}
+			After the end of the experiment participants were asked which of the three web forms they prefer the most. The bulk of them preferred index3 and index1 with 10 and 9 votes respectively compared to index2 which was only preferred by 3 participants. The given answer were transcribed as can be seen in \hl{Appendix number}. 
 
 \chapter{Discussion}
 	What was the purpose of the study, and then interpretation of the results

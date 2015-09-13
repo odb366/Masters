@@ -33,21 +33,29 @@
 \contentsline {subsection}{\numberline {3.2.5}Procedure}{20}
 \contentsline {subsection}{\numberline {3.2.6}Data Analysis}{20}
 \contentsline {subsubsection}{Signal acquisition}{20}
-\contentsline {subsubsection}{Preprocessing}{20}
+\contentsline {subsubsection}{Preprocessing}{21}
 \contentsline {subsubsection}{Feature Extraction/selection}{21}
+\contentsline {paragraph}{fNIRS mean Hbo, Hbr, and Hbt data}{21}
+\contentsline {paragraph}{fNIRS mean differences}{21}
 \contentsline {section}{\numberline {3.3}Results}{21}
 \contentsline {subsection}{\numberline {3.3.1}Mental Workload}{21}
 \contentsline {subsubsection}{fNIRS data}{21}
-\contentsline {subsubsection}{NASA-TLX}{21}
+\contentsline {subsubsection}{NASA-TLX}{23}
 \contentsline {subsubsection}{SAM - arousal scale}{23}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{23}
-\contentsline {subsubsection}{fNIRS differences}{23}
-\contentsline {subsubsection}{SAM emotional valence}{24}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{24}
-\contentsline {chapter}{\numberline {4}Discussion}{26}
-\contentsline {section}{\numberline {4.1}Implications for Design}{26}
-\contentsline {section}{\numberline {4.2}Disadvantages of the study}{26}
-\contentsline {section}{\numberline {4.3}Future work}{26}
-\contentsline {section}{\numberline {4.4}Conclusion}{26}
-\contentsline {chapter}{References}{26}
-\contentsline {chapter}{Appendix}{35}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{24}
+\contentsline {subsubsection}{fNIRS differences}{24}
+\contentsline {paragraph}{Data from the period of web form filling}{24}
+\contentsline {paragraph}{Data from the period of video clips}{25}
+\contentsline {subsubsection}{SAM emotional valence}{26}
+\contentsline {paragraph}{Data from the period of web form filling}{26}
+\contentsline {paragraph}{Data from the period of video clips}{26}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{27}
+\contentsline {subsubsection}{Task completion time}{27}
+\contentsline {subsubsection}{User preferences from the short-interview question}{27}
+\contentsline {chapter}{\numberline {4}Discussion}{28}
+\contentsline {section}{\numberline {4.1}Implications for Design}{28}
+\contentsline {section}{\numberline {4.2}Disadvantages of the study}{28}
+\contentsline {section}{\numberline {4.3}Future work}{28}
+\contentsline {section}{\numberline {4.4}Conclusion}{28}
+\contentsline {chapter}{References}{28}
+\contentsline {chapter}{Appendix}{37}
