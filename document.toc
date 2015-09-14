@@ -1,5 +1,5 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}
-\contentsline {section}{\numberline {1.1}Purpose of study}{6}
+\contentsline {section}{\numberline {1.1}Purpose of study}{5}
 \contentsline {section}{\numberline {1.2}Research questions}{6}
 \contentsline {section}{\numberline {1.3}Industry partner}{6}
 \contentsline {section}{\numberline {1.4}Structure of the thesis}{6}

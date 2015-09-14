@@ -28,39 +28,28 @@ In this dissertation we evaluated a desktop interface using functional near infr
 	
 \chapter{Introduction}
 	%The whole thesis should be third person past tense. Participants were asked to read and sign
-	- Start with the problem
+
+	Users often has to fill web pages containing more than 10 forms for example, when registering for a web site, posting classified ad, or sending online insurance claim. Sometimes this is really important in Human computer interaction(HCI) viewpoint, like filling insurance claim forms, and online banking to be intuitive and aiding the user through the process. To achieve that web forms should support the users working memory\cite{nielsen1990heuristic,shneiderman1992designing} by minimizing the effort to perceive, process and respond to the web form. That is why we are interested in measuring the mental demands imposed by the web form filling task. Furthermore, it has been suggested that attractive interfaces increase creativity\cite{norman2002emotion} of the user. Hence, it can be of high value for the researchers to know what workload and emotional state the users are experiencing during interaction with a certain interface.
 	
-	-structure from the slides of the presentation to get it started.
+	Recently, functional near infrared spectroscopy(fNIRS) has been suggested as a suitable brain imaging method for HCI studies\cite{maior2015examining,solovey2009using,pike2014measuring} because participants can wear it during normal interaction with a computer interface. In addition, the brain scanning device is non-intrusive and relatively resistant to motion artefacts which will not affect task performance and data collected, in contrast to other brain imaging modalities. Moreover, as it has been suggested by cognitive neuroscience studies that the prefrontal cortex(PFC) area of the brain is involved with higher order cognition\cite{braver1997parametric} and emotion processing\cite{damasio1996somatic}. Thus, by placing the fNIRS device on the forehead of individuals we can infer about their level of demand and emotional state.
 	
+	However, according to our knowledge only one study was found\cite{peck2013using} that uses hemodynamic data from fNIRS to compare and evaluate different variations of an interface. Other fNIRS studies experiment with simple tasks, like mental arithmetic, and n-back tasks. Accordingly, we want to implement the fNIRS device in a user trial evaluation study of an web interface because it is often encountered task in our daily lives. 
 	
-	
-	Users often has to fill web pages containing more than 10 forms for example, when registering for a web site, posting classified ad, or sending online insurance claim. Sometimes this is really important, like filling insurance claim forms because they should support the users working memory by minimizing the effort to perceive, process and respond to the web form. That is why we are interested in measuring the mental demands imposed by the web form filling task. 
-	
-	Recently, functional near infrared spectroscopy(fNIRS) has been suggested as a suitable method for HCI studies due to its unintrusivness, portability,  however when reviewing the literature review, according to our knowledge only one study was found\cite{peck2013using} that uses hemodynamic data from fNIRS to compare and evaluate different variations of an interface.
-	
-	we want to if new web form designs will make the task easier
-	
-	Importance of those forms(how they should be accurate and unaiding)
-	 However this often encountered task in our daily lives is not well researched in the field of cognitive science.	
-	
-	 -it is important measure, especially for critical tasks such as, aircraft controller, where operator with workload overload could cause accidents and cost human lifes.
-	
-	With the advance of technology, brain imaging techniques have emerged, like MRI, EEG, and fNIRS which were initially, used for medical research and purposes. In recent years the popularity of these brain imaging techniques has risen in the HCI field because of their ability to image brain data.
-	
-	videos shown are aversive stimuly(ili otbluskva6ti stimuli, ne e sigurno da se proveri) . 
-	
-	The studies using brain imaging were limited because they were presenting emotional cues, but in this study we check whether we can elucidate laterized emotions giving subjected emotional cue-less web interface. hich will be very useful in HCI area
 	\section{Purpose of study}
-		 We aim to find the most efficient layout for entering information on an web interface that has more than 10 forms, as this process is often encountered during daily web surfing, for example, when user registers to a new web site, or enter information for financial institutions, like insurance companies and banks.
+		 We aim to find a way to improve web interfaces that has more than 10 forms, and are considered long forms, as this process is often encountered during daily web surfing, for example, when user registers to a new web site, or enter information for financial institutions, like insurance companies and banks. We strive to find more generalizable results that can produce certain web form design guidelines for interacting with long forms. Accordingly, we decided to test the layout of the web forms, and examine how it influences user performance. We also, aim to assess the practicality of fNIRS brain imaging technique in HCI evaluation studies.
 	\section{Research questions}
-		Can we measure mental workload with fnirs?
-		- Could we detect emotional valence with fnirs?
-		- Which of the three layouts is has the least mental workload and users preference?
-		- Could we detect emotional valence, from web interface that has no emotional cues. This can very useful in HCI evaluations.
+		In this master thesis we aim to answer the following questions:\\
+		\begin{enumerate}
+			\itemsep0em
+			\item Which of the three layouts elicit the least mental workload and which is more preferred by the users?
+			\item Is fNIRS sensitive method in measuring mental workload changes in web form filling task? 
+			\item Can we detect emotional valence with fNIRS, from web interface that has no emotional cues.
+			\item Is fNIRS brain imaging modality practical to use in HCI evaluation studies?
+		\end{enumerate}		
 	\section{Industry partner}
-		This work has been motivated by the need of entity partner funding my masters course. The industry partner has a insurance CRM software, and the aim of the study is to provide insights in the web form filling process by testing the layout of the web pages.	
+		This work has been motivated by the need of entity partner funding my masters course. The industry partner operates an insurance customer relationship management(CRM) software, and it was requested to provide insights in the web form filling process and provide design guidelines.	
 	\section{Structure of the thesis}
-		In the next chapter we will first review the background literature behind usability and web form filling, Mental workload and working memory, Emotion processing, and finally, Brain sensing techniques. In chapter 3 we will describe the User study, including description of the method. Then we will write the results, and finally we will discuss the finding from the experiment and then summarize the study.
+		In the next chapter we will first review the background literature behind usability and web form filling, the concept of mental workload and working memory, emotion processing, and finally, relevant brain sensing techniques. In chapter 3 we will describe the User study, including description of the method we used, and the results obtained. Finally, we will discuss the finding from the experiment and then propose implications for design.
 \chapter{Literature review}
 	In the HCI field  evaluation approaches ca be divided in three general categories: analytical, field study and lab study\cite{rogers2007interaction}. First, analytical methods are designed to predict user behaviour such as, heuristic evaluation or expert reviews, so no experiment has to be conducted. Second, field studies are conducted in context in order to collect relevant and valid data, like observations. Lastly, lab studies use artificial settings but the experiment variables can be controlled easier, and also, comparative tests can be conducted. Our aim of the study is to evaluate a web form filling interface for the insurance domain, and more precisely, online auto insurance claim process. Therefore we are interested in conducting lab study because we cannot simulate road accident and we are able to compare variations of insurance claim web form. Furthermore, there are variety of evaluation methods, like interviews which will give us information about what users think about the interface, or observations which will let us recognize typical behaviour of users and obstacles they encounter while using the interface.\\
 	
