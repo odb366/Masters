@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  15 SEP 2015 22:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  15 SEP 2015 22:18
 entering extended mode
 **document.tex
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.tex"
@@ -205,12 +205,12 @@ Chapter 1.
 ] [6]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
@@ -222,7 +222,7 @@ Missing character: There is no ¤ in font cmr10!
  [8] <baddeley-wm.jpg, id=35, 228.855pt x 169.1118pt>
 File: baddeley-wm.jpg Graphic file (type jpg)
  <use baddeley-wm.jpg>
-Package pdftex.def Info: baddeley-wm.jpg used on input line 73.
+Package pdftex.def Info: baddeley-wm.jpg used on input line 72.
 (pdftex.def)             Requested size: 241.49895pt x 178.46286pt.
 
 
@@ -231,19 +231,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <mrt.png, id=36, 623.32875pt x 465.23813pt>
 File: mrt.png Graphic file (type png)
  <use mrt.png>
-Package pdftex.def Info: mrt.png used on input line 81.
+Package pdftex.def Info: mrt.png used on input line 80.
 (pdftex.def)             Requested size: 276.00105pt x 206.00452pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
 
  []
 
 [10 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/baddeley-wm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
@@ -253,14 +253,14 @@ File: two-demensional-approach-emotions.png Graphic file (type png)
 
 <use two-demensional-approach-emotions.png>
 Package pdftex.def Info: two-demensional-approach-emotions.png used on input li
-ne 117.
+ne 116.
 (pdftex.def)             Requested size: 241.49895pt x 177.70097pt.
  [13 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/two-demensional-approach-
 emotions.png>] [14] [15] [16]
 [17] [18]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
 
  []
 
@@ -273,18 +273,18 @@ Missing character: There is no £ in font cmr10!
 File: "study-procedure".png Graphic file (type png)
 
 <use "study-procedure".png>
-Package pdftex.def Info: "study-procedure".png used on input line 219.
+Package pdftex.def Info: "study-procedure".png used on input line 218.
 (pdftex.def)             Requested size: 327.74895pt x 91.30132pt.
  [22 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/study-procedure.png>]
 <mean-hbo-index123.png, id=87, 460.72125pt x 365.11406pt>
 File: mean-hbo-index123.png Graphic file (type png)
 
 <use mean-hbo-index123.png>
-Package pdftex.def Info: mean-hbo-index123.png used on input line 244.
+Package pdftex.def Info: mean-hbo-index123.png used on input line 243.
 (pdftex.def)             Requested size: 241.49895pt x 191.38133pt.
  [23] [24 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.pn
 g>]
-Overfull \hbox (5.38959pt too wide) in paragraph at lines 261--271
+Overfull \hbox (5.38959pt too wide) in paragraph at lines 260--270
  [][] 
  []
 
@@ -292,7 +292,7 @@ Overfull \hbox (5.38959pt too wide) in paragraph at lines 261--271
 File: sam-arrousal-index123.png Graphic file (type png)
 
 <use sam-arrousal-index123.png>
-Package pdftex.def Info: sam-arrousal-index123.png used on input line 279.
+Package pdftex.def Info: sam-arrousal-index123.png used on input line 278.
 (pdftex.def)             Requested size: 241.49895pt x 200.9894pt.
 
 <hbo-valence-differences-index123.png, id=101, 462.97969pt x 368.1253pt>
@@ -300,7 +300,7 @@ File: hbo-valence-differences-index123.png Graphic file (type png)
 
 <use hbo-valence-differences-index123.png>
 Package pdftex.def Info: hbo-valence-differences-index123.png used on input lin
-e 289.
+e 288.
 (pdftex.def)             Requested size: 241.49895pt x 192.02167pt.
 
 
@@ -308,7 +308,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-arrousal-index123.png>
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
@@ -317,7 +317,7 @@ dex123.png>] <sam-valence-index123.png, id=108, 461.47406pt x 380.92313pt>
 File: sam-valence-index123.png Graphic file (type png)
 
 <use sam-valence-index123.png>
-Package pdftex.def Info: sam-valence-index123.png used on input line 309.
+Package pdftex.def Info: sam-valence-index123.png used on input line 308.
 (pdftex.def)             Requested size: 241.49895pt x 199.34245pt.
  [28 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-valence-index123.png>
 ]
@@ -325,18 +325,18 @@ Package pdftex.def Info: sam-valence-index123.png used on input line 309.
 File: mean-task-completion-time.png Graphic file (type png)
 
 <use mean-task-completion-time.png>
-Package pdftex.def Info: mean-task-completion-time.png used on input line 321.
+Package pdftex.def Info: mean-task-completion-time.png used on input line 320.
 (pdftex.def)             Requested size: 293.2521pt x 232.11632pt.
  [29 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-task-completion-time
 .png>] [30]
 Chapter 4.
 [31
 
-] [32] [33] [34] [35]
-("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl" [36] [37
+] [32] [33] [34]
+("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl" [35] [36]
+[37
 
-]
-[38] [39]
+] [38] [39]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
@@ -366,7 +366,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on document.pdf (47 pages, 493461 bytes).
+Output written on document.pdf (47 pages, 493438 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
