@@ -59,11 +59,11 @@
 \contentsline {subsection}{\numberline {4.1.2}Description at beginning - Index2}{31}
 \contentsline {subsection}{\numberline {4.1.3}Divided form - Index3}{32}
 \contentsline {subsection}{\numberline {4.1.4}Divided vs single page approach}{33}
-\contentsline {section}{\numberline {4.2}fNIRS and valence asymmetry hypothesis}{33}
+\contentsline {section}{\numberline {4.2}fNIRS and valence asymmetry hypothesis}{34}
 \contentsline {section}{\numberline {4.3}fNIRS practicality for HCI evaluations}{34}
-\contentsline {section}{\numberline {4.4}Implications for Design}{34}
+\contentsline {section}{\numberline {4.4}Implications for Design}{35}
 \contentsline {section}{\numberline {4.5}Disadvantages of the study}{35}
 \contentsline {section}{\numberline {4.6}Future work}{35}
-\contentsline {section}{\numberline {4.7}Conclusion}{35}
-\contentsline {chapter}{References}{35}
-\contentsline {chapter}{Appendix}{43}
+\contentsline {section}{\numberline {4.7}Conclusion}{36}
+\contentsline {chapter}{References}{36}
+\contentsline {chapter}{Appendix}{45}

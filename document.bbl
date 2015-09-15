@@ -243,6 +243,11 @@ Eddie Harmon-Jones, Philip~A Gable, and Tom~F Price.
   attentional tuning: Comment on friedman and f{\"o}rster (2010).
 \newblock 2011.
 
+\bibitem{harrivel2013monitoring}
+Angela~R Harrivel, Daniel~H Weissman, Douglas~C Noll, and Scott~J Peltier.
+\newblock Monitoring attentional state with fnirs.
+\newblock {\em Frontiers in human neuroscience}, 7, 2013.
+
 \bibitem{hart2006nasa}
 Sandra~G Hart.
 \newblock Nasa-task load index (nasa-tlx); 20 years later.
@@ -625,5 +630,12 @@ Tal Yarkoni, Russell~A Poldrack, Thomas~E Nichols, David~C Van~Essen, and Tor~D
 \newblock Large-scale automated synthesis of human functional neuroimaging
   data.
 \newblock {\em Nature methods}, 8(8):665--670, 2011.
+
+\bibitem{yoshida2014brain}
+Kazuki Yoshida, Daisuke Sawamura, Yuji Inagaki, Keita Ogawa, Katsunori Ikoma,
+  and Shinya Sakai.
+\newblock Brain activity during the flow experience: A functional near-infrared
+  spectroscopy study.
+\newblock {\em Neuroscience letters}, 573:30--34, 2014.
 
 \end{thebibliography}
