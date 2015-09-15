@@ -56,13 +56,13 @@
 \contentsline {chapter}{\numberline {4}Discussion}{31}
 \contentsline {section}{\numberline {4.1}Comparison between the three web forms}{31}
 \contentsline {subsection}{\numberline {4.1.1}Index3}{31}
-\contentsline {subsection}{\numberline {4.1.2}Index2}{32}
+\contentsline {subsection}{\numberline {4.1.2}Index2}{31}
 \contentsline {subsection}{\numberline {4.1.3}Index1}{32}
-\contentsline {subsection}{\numberline {4.1.4}general discussion}{32}
-\contentsline {section}{\numberline {4.2}fNIRS and valency asymmetry hypothesis}{32}
-\contentsline {section}{\numberline {4.3}fNIRS suitability for HCI evaluation studies}{32}
-\contentsline {section}{\numberline {4.4}Implications for Design}{32}
-\contentsline {section}{\numberline {4.5}Disadvantages of the study}{32}
+\contentsline {subsection}{\numberline {4.1.4}Divided vs single page approach}{33}
+\contentsline {section}{\numberline {4.2}fNIRS and valency asymmetry hypothesis}{33}
+\contentsline {section}{\numberline {4.3}fNIRS practicality for HCI evaluation studies}{33}
+\contentsline {section}{\numberline {4.4}Implications for Design}{33}
+\contentsline {section}{\numberline {4.5}Disadvantages of the study}{33}
 \contentsline {section}{\numberline {4.6}Future work}{33}
 \contentsline {section}{\numberline {4.7}Conclusion}{33}
 \contentsline {chapter}{References}{33}
