@@ -42,11 +42,11 @@
 \contentsline {subsection}{\numberline {3.3.1}Mental Workload}{24}
 \contentsline {subsubsection}{fNIRS data}{24}
 \contentsline {subsubsection}{NASA-TLX}{25}
-\contentsline {subsubsection}{SAM - arousal scale}{26}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{26}
-\contentsline {subsubsection}{fNIRS differences}{26}
-\contentsline {paragraph}{Data from the period of web form filling}{26}
-\contentsline {paragraph}{Data from the period of video clips}{27}
+\contentsline {subsubsection}{SAM - arousal scale}{25}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{27}
+\contentsline {subsubsection}{fNIRS differences}{27}
+\contentsline {paragraph}{Data from the period of web form filling}{27}
+\contentsline {paragraph}{Data from the period of video clips}{28}
 \contentsline {subsubsection}{SAM emotional valence}{28}
 \contentsline {paragraph}{Data from the period of web form filling}{28}
 \contentsline {paragraph}{Data from the period of video clips}{29}
@@ -63,7 +63,7 @@
 \contentsline {section}{\numberline {4.3}fNIRS practicality for HCI evaluations}{34}
 \contentsline {section}{\numberline {4.4}Implications for Design}{35}
 \contentsline {section}{\numberline {4.5}Disadvantages of the study}{35}
-\contentsline {section}{\numberline {4.6}Future work}{35}
+\contentsline {section}{\numberline {4.6}Future work}{36}
 \contentsline {section}{\numberline {4.7}Conclusion}{36}
 \contentsline {chapter}{References}{36}
 \contentsline {chapter}{Appendix}{45}
