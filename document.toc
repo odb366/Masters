@@ -1,69 +1,67 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}
-\contentsline {section}{\numberline {1.1}Purpose of study}{5}
-\contentsline {section}{\numberline {1.2}Research questions}{6}
-\contentsline {section}{\numberline {1.3}Industry partner}{6}
-\contentsline {section}{\numberline {1.4}Structure of the thesis}{6}
-\contentsline {chapter}{\numberline {2}Literature review}{7}
-\contentsline {section}{\numberline {2.1}Usability and Web form filling}{8}
-\contentsline {section}{\numberline {2.2}Working Memory and Mental Workload}{9}
-\contentsline {subsection}{\numberline {2.2.1}Working memory models}{9}
-\contentsline {subsection}{\numberline {2.2.2}Measuring Mental Workload}{10}
-\contentsline {subsubsection}{Primary and secondary task measures}{11}
-\contentsline {subsubsection}{Subjective measures}{11}
-\contentsline {subsubsection}{Psychophysical measures}{12}
-\contentsline {section}{\numberline {2.3}Emotion processing}{13}
-\contentsline {section}{\numberline {2.4}Brain sensing}{15}
-\contentsline {subsection}{\numberline {2.4.1}PFC, cognition and emotional processing}{16}
-\contentsline {subsection}{\numberline {2.4.2}Fnirs and mental workload}{17}
-\contentsline {subsection}{\numberline {2.4.3}fNIRS and emotional valence}{17}
-\contentsline {section}{\numberline {2.5}Summary}{18}
-\contentsline {chapter}{\numberline {3}User study}{19}
-\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{19}
-\contentsline {section}{\numberline {3.2}Method}{19}
-\contentsline {subsection}{\numberline {3.2.1}Participants}{20}
-\contentsline {subsection}{\numberline {3.2.2}Apparatus}{20}
-\contentsline {subsubsection}{Laptop computer}{20}
-\contentsline {subsubsection}{fNIRS}{20}
-\contentsline {subsection}{\numberline {3.2.3}Materials}{20}
-\contentsline {subsubsection}{NASA-TLX}{20}
-\contentsline {subsubsection}{Self assessment manikin scale (SAM)}{21}
-\contentsline {subsubsection}{Web form interface}{21}
-\contentsline {subsubsection}{Video capture}{21}
-\contentsline {subsubsection}{Video clips of auto accidents}{22}
-\contentsline {subsection}{\numberline {3.2.4}Design}{22}
-\contentsline {subsection}{\numberline {3.2.5}Procedure}{22}
-\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{23}
-\contentsline {subsubsection}{Signal acquisition}{23}
-\contentsline {subsubsection}{Preprocessing}{23}
-\contentsline {subsubsection}{Feature Extraction/selection}{23}
-\contentsline {paragraph}{fNIRS mean Hbo, Hbr, and Hbt data}{23}
-\contentsline {paragraph}{fNIRS mean differences}{23}
-\contentsline {section}{\numberline {3.3}Results}{24}
-\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{24}
-\contentsline {subsubsection}{fNIRS data}{24}
-\contentsline {subsubsection}{NASA-TLX}{25}
-\contentsline {subsubsection}{SAM - arousal scale}{25}
-\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{27}
-\contentsline {subsubsection}{fNIRS differences}{27}
-\contentsline {paragraph}{Data from the period of web form filling}{27}
-\contentsline {paragraph}{Data from the period of video clips}{28}
-\contentsline {subsubsection}{SAM emotional valence}{28}
-\contentsline {paragraph}{Data from the period of web form filling}{28}
-\contentsline {paragraph}{Data from the period of video clips}{29}
-\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{29}
-\contentsline {subsubsection}{Task completion time}{29}
-\contentsline {subsubsection}{User preferences from the short-interview question}{30}
-\contentsline {chapter}{\numberline {4}Discussion}{31}
-\contentsline {section}{\numberline {4.1}Comparison between the three web forms}{31}
-\contentsline {subsection}{\numberline {4.1.1}Control condition - Index1}{31}
-\contentsline {subsection}{\numberline {4.1.2}Description at beginning - Index2}{32}
-\contentsline {subsection}{\numberline {4.1.3}Divided form - Index3}{32}
-\contentsline {subsection}{\numberline {4.1.4}Divided vs single page approach}{33}
-\contentsline {section}{\numberline {4.2}fNIRS and valence asymmetry hypothesis}{34}
-\contentsline {section}{\numberline {4.3}fNIRS practicality for HCI evaluations}{34}
-\contentsline {section}{\numberline {4.4}Implications for Design}{35}
-\contentsline {section}{\numberline {4.5}Limitations of the study}{35}
-\contentsline {section}{\numberline {4.6}Future work}{36}
-\contentsline {section}{\numberline {4.7}Conclusion}{36}
-\contentsline {chapter}{References}{36}
-\contentsline {chapter}{Appendix}{45}
+\contentsline {chapter}{\numberline {1}Introduction}{7}
+\contentsline {section}{\numberline {1.1}Purpose of study}{7}
+\contentsline {section}{\numberline {1.2}Research questions}{8}
+\contentsline {section}{\numberline {1.3}Industry partner}{8}
+\contentsline {section}{\numberline {1.4}Structure of the thesis}{8}
+\contentsline {chapter}{\numberline {2}Literature review}{9}
+\contentsline {section}{\numberline {2.1}Usability and Web form filling}{10}
+\contentsline {section}{\numberline {2.2}Working Memory and Mental Workload}{11}
+\contentsline {subsection}{\numberline {2.2.1}Working memory models}{11}
+\contentsline {subsection}{\numberline {2.2.2}Measuring Mental Workload}{12}
+\contentsline {subsubsection}{Primary and secondary task measures}{13}
+\contentsline {subsubsection}{Subjective measures}{13}
+\contentsline {subsubsection}{Psychophysical measures}{14}
+\contentsline {section}{\numberline {2.3}Emotion processing}{15}
+\contentsline {section}{\numberline {2.4}Brain sensing}{17}
+\contentsline {subsection}{\numberline {2.4.1}PFC, cognition and emotional processing}{18}
+\contentsline {subsection}{\numberline {2.4.2}Fnirs and mental workload}{19}
+\contentsline {subsection}{\numberline {2.4.3}fNIRS and emotional valence}{20}
+\contentsline {section}{\numberline {2.5}Summary}{20}
+\contentsline {chapter}{\numberline {3}User study}{22}
+\contentsline {section}{\numberline {3.1}Hypothesis and expectations}{22}
+\contentsline {section}{\numberline {3.2}Method}{22}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{23}
+\contentsline {subsection}{\numberline {3.2.2}Apparatus}{23}
+\contentsline {subsubsection}{Laptop computer}{23}
+\contentsline {subsubsection}{fNIRS}{23}
+\contentsline {subsection}{\numberline {3.2.3}Materials}{23}
+\contentsline {subsubsection}{NASA-TLX}{23}
+\contentsline {subsubsection}{Self assessment manikin scale (SAM)}{24}
+\contentsline {subsubsection}{Layout variations of web forms}{24}
+\contentsline {subsubsection}{Video capture}{25}
+\contentsline {subsubsection}{Video clips of auto accidents}{25}
+\contentsline {subsection}{\numberline {3.2.4}Design}{26}
+\contentsline {subsection}{\numberline {3.2.5}Procedure}{26}
+\contentsline {subsection}{\numberline {3.2.6}Data Analysis}{27}
+\contentsline {subsubsection}{Signal acquisition}{27}
+\contentsline {subsubsection}{Preprocessing}{27}
+\contentsline {subsubsection}{Feature Extraction/selection}{27}
+\contentsline {section}{\numberline {3.3}Results}{28}
+\contentsline {subsection}{\numberline {3.3.1}Mental Workload}{28}
+\contentsline {subsubsection}{fNIRS data}{28}
+\contentsline {subsubsection}{NASA-TLX}{29}
+\contentsline {subsubsection}{SAM - arousal scale}{31}
+\contentsline {subsection}{\numberline {3.3.2}Emotional Valence}{31}
+\contentsline {subsubsection}{fNIRS differences}{31}
+\contentsline {paragraph}{Data from the period of web form filling}{31}
+\contentsline {paragraph}{Data from the period of video clips}{32}
+\contentsline {subsubsection}{SAM emotional valence}{33}
+\contentsline {paragraph}{Data from the period of web form filling}{33}
+\contentsline {paragraph}{Data from the period of video clips}{34}
+\contentsline {subsection}{\numberline {3.3.3}User performance and preferences}{34}
+\contentsline {subsubsection}{Task completion time}{34}
+\contentsline {subsubsection}{User preferences from the short-interview question}{35}
+\contentsline {chapter}{\numberline {4}Discussion}{36}
+\contentsline {section}{\numberline {4.1}Comparison between the three web forms}{36}
+\contentsline {subsection}{\numberline {4.1.1}Control condition - Index1}{36}
+\contentsline {subsection}{\numberline {4.1.2}Description at beginning - Index2}{37}
+\contentsline {subsection}{\numberline {4.1.3}Divided form - Index3}{37}
+\contentsline {subsection}{\numberline {4.1.4}Divided vs single page approach}{38}
+\contentsline {section}{\numberline {4.2}fNIRS and valence asymmetry hypothesis}{39}
+\contentsline {section}{\numberline {4.3}fNIRS practicality for HCI evaluations}{39}
+\contentsline {section}{\numberline {4.4}Implications for Design}{40}
+\contentsline {section}{\numberline {4.5}Limitations of the study}{40}
+\contentsline {section}{\numberline {4.6}Future work}{41}
+\contentsline {section}{\numberline {4.7}Conclusion}{41}
+\contentsline {chapter}{References}{41}
+\contentsline {chapter}{Appendix}{50}

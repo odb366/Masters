@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  17 SEP 2015 11:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  17 SEP 2015 21:58
 entering extended mode
 **document.tex
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.tex"
@@ -63,6 +63,31 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count89
+\c@Blindtext=\count90
+\c@blind@countparstart=\count91
+\blind@countxx=\count92
+\blindtext@numBlindtext=\count93
+\blind@countyy=\count94
+\c@blindlist=\count95
+\c@blindlistlevel=\count96
+\c@blindlist@level=\count97
+\blind@listitem=\count98
+\c@blind@listcount=\count99
+\c@blind@levelcount=\count100
+\blind@mathformula=\count101
+\blind@Mathformula=\count102
+\c@blind@randomcount=\count103
+\c@blind@randommax=\count104
+\c@blind@pangramcount=\count105
+\c@blind@pangrammax=\count106
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
@@ -83,13 +108,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count107
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count108
+\leftroot@=\count109
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count110
+\DOTSCASE@=\count111
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -98,15 +123,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count112
+\c@MaxMatrixCols=\count113
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count114
+\dspbrk@lvl=\count115
 \tag@help=\toks16
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count116
+\column@=\count117
+\maxfields@=\count118
 \andhelp@=\toks17
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
@@ -159,38 +184,90 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen122
 \caption@hangindent=\dimen123
 )
-\c@ContinuedFloat=\count101
+\c@ContinuedFloat=\count119
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2015/08/16 v0.5c Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count120
+\calc@Bcount=\count121
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count122
+\calc@Cskip=\skip49
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+\AM@pagewidth=\dimen126
+\AM@pageheight=\dimen127
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2015/08/16 v0.5c Pdfpages driver for pdfTeX (AM)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+\AM@pagebox=\box28
+\AM@toc@title=\toks25
+\c@AM@survey=\count123
+\AM@templatesizebox=\box29
 )
 ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen124
-\scratchbox=\box28
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen125
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count124
+\scratchdimen=\dimen128
+\scratchbox=\box30
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen129
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks27
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box31
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] [2]
@@ -199,182 +276,764 @@ Package caption Info: End \AtBeginDocument code.
 ])
 \tf@toc=\write3
  [4]
-Chapter 1.
-[5
+("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.lof")
+\tf@lof=\write4
+ [5
 
-] [6]
+]
+("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.lot")
+\tf@lot=\write5
+ [6
+
+]
+Chapter 1.
+[7
+
+] [8]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[7
+[9
 
 ]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
- [8] <baddeley-wm.jpg, id=35, 228.855pt x 169.1118pt>
+ [10] <baddeley-wm.jpg, id=41, 228.855pt x 169.1118pt>
 File: baddeley-wm.jpg Graphic file (type jpg)
- <use baddeley-wm.jpg>
-Package pdftex.def Info: baddeley-wm.jpg used on input line 73.
+
+<use baddeley-wm.jpg>
+Package pdftex.def Info: baddeley-wm.jpg used on input line 83.
 (pdftex.def)             Requested size: 241.49895pt x 178.46286pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<mrt.png, id=36, 623.32875pt x 465.23813pt>
+<mrt.png, id=42, 623.32875pt x 465.23813pt>
 File: mrt.png Graphic file (type png)
  <use mrt.png>
-Package pdftex.def Info: mrt.png used on input line 81.
+Package pdftex.def Info: mrt.png used on input line 91.
 (pdftex.def)             Requested size: 276.00105pt x 206.00452pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 
  []
 
-[10 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/baddeley-wm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[12 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/baddeley-wm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
-[11 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mrt.png>] [12]
-<two-demensional-approach-emotions.png, id=52, 304.88907pt x 224.33812pt>
+[13 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mrt.png>] [14]
+<two-demensional-approach-emotions.png, id=58, 304.88907pt x 224.33812pt>
 File: two-demensional-approach-emotions.png Graphic file (type png)
 
 <use two-demensional-approach-emotions.png>
 Package pdftex.def Info: two-demensional-approach-emotions.png used on input li
-ne 117.
+ne 127.
 (pdftex.def)             Requested size: 241.49895pt x 177.70097pt.
- [13 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/two-demensional-approach-
-emotions.png>] [14] [15] [16]
-[17] [18]
-Chapter 3.
+ [15 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/two-demensional-approach-
+emotions.png>] [16] [17]
+pdfTeX warning (ext1): too large image resolution ignored
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
-
- []
-
-[19
-
-]
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
- [20] [21] <"study-procedure".png, id=82, 722.7pt x 201.32358pt>
-File: "study-procedure".png Graphic file (type png)
-
-<use "study-procedure".png>
-Package pdftex.def Info: "study-procedure".png used on input line 221.
-(pdftex.def)             Requested size: 327.74895pt x 91.30132pt.
- [22 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/study-procedure.png>] [23
-]
-<mean-hbo-index123.png, id=90, 460.72125pt x 365.11406pt>
-File: mean-hbo-index123.png Graphic file (type png)
-
-<use mean-hbo-index123.png>
-Package pdftex.def Info: mean-hbo-index123.png used on input line 246.
-(pdftex.def)             Requested size: 241.49895pt x 191.38133pt.
- [24 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.png>]
-Overfull \hbox (5.38959pt too wide) in paragraph at lines 263--273
- [][] 
- []
+<../../../Desktop/Dissertation/Prefrontal1.png, id=69, 713.66624pt x 462.72874p
+t>
+File: ../../../Desktop/Dissertation/Prefrontal1.png Graphic file (type png)
+ <use ../../../Desktop/Dissertation/Prefrontal1.png>
+Package pdftex.def Info: ../../../Desktop/Dissertation/Prefrontal1.png used on 
+input line 156.
+(pdftex.def)             Requested size: 241.49895pt x 156.58432pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] <sam-arrousal-index123.png, id=100, 462.22687pt x 384.6872pt>
+[18] [19 <C:/Users/Petko Voivoda/Desktop/Dissertation/Prefrontal1.png>]
+[20] [21]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
+
+ []
+
+[22
+
+]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no £ in font cmr10!
+ <source-detector-diagram.png, id=87, 970.3753pt x 553.31718pt>
+File: source-detector-diagram.png Graphic file (type png)
+
+<use source-detector-diagram.png>
+Package pdftex.def Info: source-detector-diagram.png used on input line 216.
+(pdftex.def)             Requested size: 241.49895pt x 137.70418pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] <layout-variations.png, id=91, 648.92438pt x 481.04718pt>
+File: layout-variations.png Graphic file (type png)
+
+<use layout-variations.png>
+Package pdftex.def Info: layout-variations.png used on input line 229.
+(pdftex.def)             Requested size: 296.70021pt x 219.94847pt.
+ [24 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/source-detector-diagram.p
+ng>] [25 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/layout-variations.png
+>]
+<"study-procedure".png, id=99, 722.7pt x 201.32358pt>
+File: "study-procedure".png Graphic file (type png)
+
+<use "study-procedure".png>
+Package pdftex.def Info: "study-procedure".png used on input line 243.
+(pdftex.def)             Requested size: 327.74895pt x 91.30132pt.
+ [26 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/study-procedure.png>]
+<mean-hbo-index123.png, id=104, 460.72125pt x 365.11406pt>
+File: mean-hbo-index123.png Graphic file (type png)
+
+<use mean-hbo-index123.png>
+Package pdftex.def Info: mean-hbo-index123.png used on input line 268.
+(pdftex.def)             Requested size: 241.49895pt x 191.38133pt.
+ [27]
+<p2-index3-brain-view-left-activation.png, id=108, 429.10312pt x 368.87813pt>
+File: p2-index3-brain-view-left-activation.png Graphic file (type png)
+
+<use p2-index3-brain-view-left-activation.png>
+Package pdftex.def Info: p2-index3-brain-view-left-activation.png used on input
+ line 276.
+(pdftex.def)             Requested size: 241.49895pt x 207.606pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<p2-video3-brain-view.png, id=109, 429.10312pt x 368.87813pt>
+File: p2-video3-brain-view.png Graphic file (type png)
+
+<use p2-video3-brain-view.png>
+Package pdftex.def Info: p2-video3-brain-view.png used on input line 284.
+(pdftex.def)             Requested size: 241.49895pt x 207.606pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-hbo-index123.png>]
+[29 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/p2-index3-brain-view-left-
+activation.png>]
+Overfull \hbox (5.38959pt too wide) in paragraph at lines 299--309
+ [][] 
+ []
+
+[30 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/p2-video3-brain-view.png>]
+<sam-arrousal-index123.png, id=124, 462.22687pt x 384.6872pt>
 File: sam-arrousal-index123.png Graphic file (type png)
 
 <use sam-arrousal-index123.png>
-Package pdftex.def Info: sam-arrousal-index123.png used on input line 281.
+Package pdftex.def Info: sam-arrousal-index123.png used on input line 317.
 (pdftex.def)             Requested size: 241.49895pt x 200.9894pt.
 
-<hbo-valence-differences-index123.png, id=101, 462.97969pt x 368.1253pt>
+<hbo-valence-differences-index123.png, id=125, 462.97969pt x 368.1253pt>
 File: hbo-valence-differences-index123.png Graphic file (type png)
 
 <use hbo-valence-differences-index123.png>
 Package pdftex.def Info: hbo-valence-differences-index123.png used on input lin
-e 291.
+e 327.
 (pdftex.def)             Requested size: 241.49895pt x 192.02167pt.
- [26 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-arrousal-index123.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-arrousal-index123.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
  []
 
-[27 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/hbo-valence-differences-in
-dex123.png>] <sam-valence-index123.png, id=108, 461.47406pt x 380.92313pt>
+[32 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/hbo-valence-differences-in
+dex123.png>] <sam-valence-index123.png, id=132, 461.47406pt x 380.92313pt>
 File: sam-valence-index123.png Graphic file (type png)
 
 <use sam-valence-index123.png>
-Package pdftex.def Info: sam-valence-index123.png used on input line 311.
+Package pdftex.def Info: sam-valence-index123.png used on input line 347.
 (pdftex.def)             Requested size: 241.49895pt x 199.34245pt.
- [28 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-valence-index123.png>
+ [33 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/sam-valence-index123.png>
 ]
-<mean-task-completion-time.png, id=113, 462.22687pt x 365.86688pt>
+<mean-task-completion-time.png, id=137, 462.22687pt x 365.86688pt>
 File: mean-task-completion-time.png Graphic file (type png)
 
 <use mean-task-completion-time.png>
-Package pdftex.def Info: mean-task-completion-time.png used on input line 323.
+Package pdftex.def Info: mean-task-completion-time.png used on input line 359.
 (pdftex.def)             Requested size: 293.2521pt x 232.11632pt.
- [29 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-task-completion-time
-.png>] [30]
-Chapter 4.
-[31
+ [34 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/mean-task-completion-time
+.png>]
+<user-preferences.png, id=141, 548.80031pt x 233.37187pt>
+File: user-preferences.png Graphic file (type png)
 
-] [32] [33] [34]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 374.
+<use user-preferences.png>
+Package pdftex.def Info: user-preferences.png used on input line 370.
+(pdftex.def)             Requested size: 241.49895pt x 102.69461pt.
+ [35 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/user-preferences.png>]
+Chapter 4.
+[36
+
+] [37] [38] [39]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 417.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 374.
- [35] ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl"
-[36] [37
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 417.
+ [40] ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.bbl"
+[41] [42
 
-] [38] [39]
+] [43] [44]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [40] [41] [42] [43]
+ [45] [46] [47] [48]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
- [44]) [45] [46
+ [49]) [50]
+<Appendicies/ConsentForm.pdf, id=194, 596.98032pt x 845.40843pt>
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf used on input line 443.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+ <use Appendicies/ConsentForm.pdf>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf used on input line 443.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+
+<Appendicies/ConsentForm.pdf, id=197, page=1, 596.98032pt x 845.40843pt>
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 1>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page1 used on input line 
+443.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 1>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page1 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [51
 
 ]
-("C:\Users\Petko Voivoda\Documents\GitHub\Masters\document.aux") ) 
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 1>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page1 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 1>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page1 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 1>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page1 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [52 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/ConsentForm.p
+df>]
+<Appendicies/ConsentForm.pdf, id=238, page=2, 596.98032pt x 845.40843pt>
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 2>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page2 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 2>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page2 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 2>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page2 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [53 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/ConsentForm.p
+df>]
+<Appendicies/ConsentForm.pdf, id=265, page=3, 596.98032pt x 845.40843pt>
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 3>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page3 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 3>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page3 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/ConsentForm.pdf Graphic file (type pdf)
+
+<use Appendicies/ConsentForm.pdf, page 3>
+Package pdftex.def Info: Appendicies/ConsentForm.pdf, page3 used on input line 
+443.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [54 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/ConsentForm.p
+df>]
+<Appendicies/InformationSheet.pdf, id=272, 596.98032pt x 845.40843pt>
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf used on input line 44
+6.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+ <use Appendicies/InformationSheet.pdf>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf used on input line 44
+6.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+
+<Appendicies/InformationSheet.pdf, id=275, page=1, 596.98032pt x 845.40843pt>
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 1>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page1 used on input 
+line 446.
+(pdftex.def)             Requested size: 596.97885pt x 845.40636pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 1>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page1 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [55
+
+]
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 1>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page1 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 1>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page1 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 1>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page1 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [56 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/InformationSh
+eet.pdf>]
+<Appendicies/InformationSheet.pdf, id=320, page=2, 596.98032pt x 845.40843pt>
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 2>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page2 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 2>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page2 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+File: Appendicies/InformationSheet.pdf Graphic file (type pdf)
+
+<use Appendicies/InformationSheet.pdf, page 2>
+Package pdftex.def Info: Appendicies/InformationSheet.pdf, page2 used on input 
+line 446.
+(pdftex.def)             Requested size: 597.00616pt x 845.44505pt.
+ [57 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/InformationSh
+eet.pdf>]
+<Appendicies/NASAandSAM.pdf, id=325, 597.55246pt x 845.07718pt>
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf used on input line 449.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+ <use Appendicies/NASAandSAM.pdf>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf used on input line 449.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+<Appendicies/NASAandSAM.pdf, id=328, page=2, 597.55246pt x 845.07718pt>
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 2>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page2 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 2>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page2 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [58
+
+]
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 2>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page2 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 2>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page2 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 2>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page2 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [59 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/NASAandSAM.pd
+f>]
+<Appendicies/NASAandSAM.pdf, id=369, page=3, 597.23125pt x 845.1575pt>
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 3>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page3 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 3>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page3 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Appendicies/NASAandSAM.pdf Graphic file (type pdf)
+
+<use Appendicies/NASAandSAM.pdf, page 3>
+Package pdftex.def Info: Appendicies/NASAandSAM.pdf, page3 used on input line 4
+49.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [60 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/NASAandSAM.pd
+f>]
+<Appendicies/Comments.pdf, id=375, 597.73312pt x 845.40843pt>
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf>
+Package pdftex.def Info: Appendicies/Comments.pdf used on input line 452.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf>
+Package pdftex.def Info: Appendicies/Comments.pdf used on input line 452.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+
+<Appendicies/Comments.pdf, id=378, page=1, 597.73312pt x 845.40843pt>
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 1>
+Package pdftex.def Info: Appendicies/Comments.pdf, page1 used on input line 452
+.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf, page 1>
+Package pdftex.def Info: Appendicies/Comments.pdf, page1 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+
+[61
+
+]
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf, page 1>
+Package pdftex.def Info: Appendicies/Comments.pdf, page1 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 1>
+Package pdftex.def Info: Appendicies/Comments.pdf, page1 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf, page 1>
+Package pdftex.def Info: Appendicies/Comments.pdf, page1 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+
+[62 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/Comments.pdf>]
+<Appendicies/Comments.pdf, id=392, page=2, 597.73312pt x 845.40843pt>
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 2>
+Package pdftex.def Info: Appendicies/Comments.pdf, page2 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf, page 2>
+Package pdftex.def Info: Appendicies/Comments.pdf, page2 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 2>
+Package pdftex.def Info: Appendicies/Comments.pdf, page2 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+ [63 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/Comments.pdf>
+]
+<Appendicies/Comments.pdf, id=405, page=3, 597.73312pt x 845.40843pt>
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 3>
+Package pdftex.def Info: Appendicies/Comments.pdf, page3 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+ <use Appendicies/Comments.pdf, page 3>
+Package pdftex.def Info: Appendicies/Comments.pdf, page3 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: Appendicies/Comments.pdf Graphic file (type pdf)
+
+<use Appendicies/Comments.pdf, page 3>
+Package pdftex.def Info: Appendicies/Comments.pdf, page3 used on input line 452
+.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+ [64 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/Comments.pdf>
+]
+<Appendicies/participant-info.png, id=410, 356.83313pt x 340.27126pt>
+File: Appendicies/participant-info.png Graphic file (type png)
+
+<use Appendicies/participant-info.png>
+Package pdftex.def Info: Appendicies/participant-info.png used on input line 45
+8.
+(pdftex.def)             Requested size: 345.0pt x 329.00352pt.
+ [65
+
+ <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/participant-info.
+png>]
+<Appendicies/hbo-index.png, id=415, 490.08093pt x 212.29312pt>
+File: Appendicies/hbo-index.png Graphic file (type png)
+
+<use Appendicies/hbo-index.png>
+Package pdftex.def Info: Appendicies/hbo-index.png used on input line 465.
+(pdftex.def)             Requested size: 345.0pt x 149.44963pt.
+
+<Appendicies/hbr-index.png, id=416, 490.08093pt x 210.7875pt>
+File: Appendicies/hbr-index.png Graphic file (type png)
+
+<use Appendicies/hbr-index.png>
+Package pdftex.def Info: Appendicies/hbr-index.png used on input line 471.
+(pdftex.def)             Requested size: 345.0pt x 148.38971pt.
+ [66
+
+ <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbo-index.png> <C
+:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbr-index.png>]
+<Appendicies/hbt-index.png, id=422, 489.32813pt x 210.7875pt>
+File: Appendicies/hbt-index.png Graphic file (type png)
+
+<use Appendicies/hbt-index.png>
+Package pdftex.def Info: Appendicies/hbt-index.png used on input line 477.
+(pdftex.def)             Requested size: 345.0pt x 148.61807pt.
+ [67 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbt-index.png
+>]
+<Appendicies/hbo-valence.png, id=426, 450.9347pt x 194.97844pt>
+File: Appendicies/hbo-valence.png Graphic file (type png)
+
+<use Appendicies/hbo-valence.png>
+Package pdftex.def Info: Appendicies/hbo-valence.png used on input line 485.
+(pdftex.def)             Requested size: 345.0pt x 149.18181pt.
+
+<Appendicies/hbr-valence.png, id=427, 450.18187pt x 194.22563pt>
+File: Appendicies/hbr-valence.png Graphic file (type png)
+
+<use Appendicies/hbr-valence.png>
+Package pdftex.def Info: Appendicies/hbr-valence.png used on input line 491.
+(pdftex.def)             Requested size: 345.0pt x 148.8518pt.
+ [68
+
+ <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbo-valence.png> 
+<C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbr-valence.png>]
+<Appendicies/hbt-valence.png, id=431, 450.18187pt x 194.97844pt>
+File: Appendicies/hbt-valence.png Graphic file (type png)
+
+<use Appendicies/hbt-valence.png>
+Package pdftex.def Info: Appendicies/hbt-valence.png used on input line 497.
+(pdftex.def)             Requested size: 345.0pt x 149.42874pt.
+ [69 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/hbt-valence.p
+ng>]
+<Appendicies/stats/hbo-sphreicity-index123.png, id=435, 663.22781pt x 155.83218
+pt>
+File: Appendicies/stats/hbo-sphreicity-index123.png Graphic file (type png)
+ <use Appendicies/stats/hbo-sphreicity-index123.png>
+Package pdftex.def Info: Appendicies/stats/hbo-sphreicity-index123.png used on 
+input line 506.
+(pdftex.def)             Requested size: 345.0pt x 81.06172pt.
+
+<Appendicies/stats/hbo-anova-index123.png, id=436, 606.76688pt x 177.66376pt>
+File: Appendicies/stats/hbo-anova-index123.png Graphic file (type png)
+
+<use Appendicies/stats/hbo-anova-index123.png>
+Package pdftex.def Info: Appendicies/stats/hbo-anova-index123.png used on input
+ line 511.
+(pdftex.def)             Requested size: 345.0pt x 101.01727pt.
+ [70
+
+ <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/hbo-sphreic
+ity-index123.png> <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/
+stats/hbo-anova-index123.png>]
+<Appendicies/stats/hbo-descriptive-index123.png, id=440, 229.60782pt x 84.315pt
+>
+File: Appendicies/stats/hbo-descriptive-index123.png Graphic file (type png)
+ <use Appendicies/stats/hbo-descriptive-index123.png>
+Package pdftex.def Info: Appendicies/stats/hbo-descriptive-index123.png used on
+ input line 516.
+(pdftex.def)             Requested size: 241.49895pt x 88.68643pt.
+
+<Appendicies/stats/hbo-pariwise-index123.png, id=441, 416.30531pt x 188.95593pt
+>
+File: Appendicies/stats/hbo-pariwise-index123.png Graphic file (type png)
+ <use Appendicies/stats/hbo-pariwise-index123.png>
+Package pdftex.def Info: Appendicies/stats/hbo-pariwise-index123.png used on in
+put line 520.
+(pdftex.def)             Requested size: 345.0pt x 156.59982pt.
+ [71 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/hbo-des
+criptive-index123.png> <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendi
+cies/stats/hbo-pariwise-index123.png>]
+<Appendicies/stats/SAM-arousal-sphericity-index123.png, id=445, 663.22781pt x 1
+43.03438pt>
+File: Appendicies/stats/SAM-arousal-sphericity-index123.png Graphic file (type 
+png)
+ <use Appendicies/stats/SAM-arousal-sphericity-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-arousal-sphericity-index123.png 
+used on input line 527.
+(pdftex.def)             Requested size: 345.0pt x 74.40448pt.
+
+<Appendicies/stats/SAM-arousal-anova-index123.png, id=446, 608.2725pt x 176.158
+13pt>
+File: Appendicies/stats/SAM-arousal-anova-index123.png Graphic file (type png)
+ <use Appendicies/stats/SAM-arousal-anova-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-arousal-anova-index123.png used 
+on input line 532.
+(pdftex.def)             Requested size: 345.0pt x 99.91658pt.
+ [72 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/SAM-aro
+usal-sphericity-index123.png> <C:/Users/Petko Voivoda/Documents/GitHub/Masters/
+Appendicies/stats/SAM-arousal-anova-index123.png>]
+<Appendicies/stats/SAM-arousal-pairwise-index123.png, id=451, 416.30531pt x 200
+.24812pt>
+File: Appendicies/stats/SAM-arousal-pairwise-index123.png Graphic file (type pn
+g)
+ <use Appendicies/stats/SAM-arousal-pairwise-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-arousal-pairwise-index123.png us
+ed on input line 537.
+(pdftex.def)             Requested size: 345.0pt x 165.9584pt.
+
+<Appendicies/stats/SAM-arousal-descriptive-index123.png, id=452, 277.035pt x 85
+.06781pt>
+File: Appendicies/stats/SAM-arousal-descriptive-index123.png Graphic file (type
+ png)
+ <use Appendicies/stats/SAM-arousal-descriptive-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-arousal-descriptive-index123.png
+ used on input line 542.
+(pdftex.def)             Requested size: 241.49895pt x 74.15636pt.
+
+<Appendicies/stats/SAM-evalence-descriptive-index123.png, id=453, 222.07968pt x
+ 82.80937pt>
+File: Appendicies/stats/SAM-evalence-descriptive-index123.png Graphic file (typ
+e png)
+ <use Appendicies/stats/SAM-evalence-descriptive-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-evalence-descriptive-index123.pn
+g used on input line 548.
+(pdftex.def)             Requested size: 241.49895pt x 90.05066pt.
+
+<Appendicies/stats/SAM-evalence-pairwise-index123.png, id=454, 389.20406pt x 18
+6.6975pt>
+File: Appendicies/stats/SAM-evalence-pairwise-index123.png Graphic file (type p
+ng)
+ <use Appendicies/stats/SAM-evalence-pairwise-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-evalence-pairwise-index123.png u
+sed on input line 552.
+(pdftex.def)             Requested size: 345.0pt x 165.49933pt.
+
+<Appendicies/stats/SAM-evalence-sphericity-index123.png, id=455, 661.72218pt x 
+140.02313pt>
+File: Appendicies/stats/SAM-evalence-sphericity-index123.png Graphic file (type
+ png)
+ <use Appendicies/stats/SAM-evalence-sphericity-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-evalence-sphericity-index123.png
+ used on input line 556.
+(pdftex.def)             Requested size: 345.0pt x 73.0026pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[73 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/SAM-arou
+sal-pairwise-index123.png> <C:/Users/Petko Voivoda/Documents/GitHub/Masters/App
+endicies/stats/SAM-arousal-descriptive-index123.png> <C:/Users/Petko Voivoda/Do
+cuments/GitHub/Masters/Appendicies/stats/SAM-evalence-descriptive-index123.png>
+]
+<Appendicies/stats/SAM-evalence-anova-index123.png, id=459, 608.2725pt x 176.15
+813pt>
+File: Appendicies/stats/SAM-evalence-anova-index123.png Graphic file (type png)
+
+ <use Appendicies/stats/SAM-evalence-anova-index123.png>
+Package pdftex.def Info: Appendicies/stats/SAM-evalence-anova-index123.png used
+ on input line 562.
+(pdftex.def)             Requested size: 345.0pt x 99.91658pt.
+ [74 <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/SAM-eva
+lence-pairwise-index123.png> <C:/Users/Petko Voivoda/Documents/GitHub/Masters/A
+ppendicies/stats/SAM-evalence-sphericity-index123.png> <C:/Users/Petko Voivoda/
+Documents/GitHub/Masters/Appendicies/stats/SAM-evalence-anova-index123.png>]
+<Appendicies/stats/mental-demand-vs-time-corr.png, id=463, 479.54156pt x 336.50
+719pt>
+File: Appendicies/stats/mental-demand-vs-time-corr.png Graphic file (type png)
+ <use Appendicies/stats/mental-demand-vs-time-corr.png>
+Package pdftex.def Info: Appendicies/stats/mental-demand-vs-time-corr.png used 
+on input line 569.
+(pdftex.def)             Requested size: 345.0pt x 242.10013pt.
+ [75
+
+ <C:/Users/Petko Voivoda/Documents/GitHub/Masters/Appendicies/stats/mental-dema
+nd-vs-time-corr.png>] ("C:\Users\Petko Voivoda\Documents\GitHub\Masters\documen
+t.aux") ) 
 Here is how much of TeX's memory you used:
- 3277 strings out of 493921
- 48973 string characters out of 3144852
- 114441 words of memory out of 3000000
- 6554 multiletter control sequences out of 15000+200000
+ 4496 strings out of 493921
+ 73045 string characters out of 3144852
+ 127726 words of memory out of 3000000
+ 7687 multiletter control sequences out of 15000+200000
  11062 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,8n,38p,2047b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on document.pdf (47 pages, 497811 bytes).
+ 39i,18n,43p,2047b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on document.pdf (76 pages, 3470156 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
+ 502 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

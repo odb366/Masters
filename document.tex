@@ -3,10 +3,12 @@
 \date{2015-09-18}
 \author{Kristiyan Lukanov}
 \usepackage{graphicx}
+\usepackage{blindtext}
 \usepackage{amsmath}
 \usepackage{url}
 \usepackage{color,soul}
 \usepackage{caption} 
+\usepackage{pdfpages}
 \captionsetup[table]{skip=10pt}
 \renewcommand{\bibname}{References}
 \renewcommand{\arraystretch}{1.3}
@@ -17,7 +19,14 @@
 \pagenumbering{arabic}
 
 \section*{Acknowledgements}
-lorem ipsum 
+I would like to sincerely thank \textbf{Anry Levy} for giving me the opportunity to study my favourite subject HCI in a word class university. I'm really grateful and must point that such good-natured people are rarely seen. Thanks to the Fadata personnel that helped me in one or other way in my journey in England.
+
+In addition, special thanks goes to \textbf{Max L. Wilson} which supervised the master thesis and provided me with great feedback and guidance. Thanks for you positive attitude, which motivated me to work more. I cannot surpass, also \textbf{Horia Maior} for the tremendous help in and out of the university. Thanks for everything man, you was a real friend to me. 
+
+Also, I would like to thank my whole family - \textbf{Emil}, \textbf{Teodora} for the outstanding support, especially \textbf{Mario} and \textbf{Dayana}. Without them all of this would not be possible. Thanks to my grandparents, you are just wonderful and always ready to help! Thanks to my friends, your existence is richness for me.
+
+Thanks for the patience and the help of my girlfriend \textbf{Emi}, which was ever-loving and supporting during the whole year. 
+
 \newpage
 \section*{Abstract}
 In this dissertation we evaluated a web interface using functional near infrared spectroscopy(fNIRS), and verified the practicality of this brain imaging modality. More specifically, we tested the web page layout of an online insurance claim process. Three variations of the web forms were created: one standard insurance claim form, one which has alternated order of form fields, and one which divides the forms into three pages. We hypothesised that there should be significant difference between them in the objective and subjective measures of mental workload. Also, we tried to elicit emotional state from the fNIRS data and hypothesised that a correlation will be observed between the objective and subjective measures of emotional valence. We found that the control condition elicited the lowest mental workload and positive valence according to the majority of the corresponding measures. In contrast, the divided page approach evoked highest mental workload and positive valence. We contribute to web form design and usability research by proposing implications for design. In addition, we assessed the practicality of fNIRS as limited particularly for low engaging web interfaces due to the higher amount of time, and resources required to run and analyse the data.
@@ -25,7 +34,8 @@ In this dissertation we evaluated a web interface using functional near infrared
 \newpage
 \tableofcontents
 \newpage
-	
+\listoffigures
+\listoftables
 \chapter{Introduction}
 	%The whole thesis should be third person past tense. Participants were asked to read and sign
 
@@ -141,12 +151,13 @@ In this dissertation we evaluated a web interface using functional near infrared
 		\subsection{PFC, cognition and emotional processing}
 		Generally, the prefrontal cortex(PFC) has been associated with higher cognitive functions by studies examining brain damaged individuals\cite{shallice1988neuropsychology,smith1997working}. Also, experiments on healthy subjects using the n-back task\cite{braver1997parametric} have supported this claim. More specifically, activation was observed in the dorsolateral prefrontal cortex (BA 9/46), inferior frontal (BA 6/44) and parietal (BA 7/44) when the task demanded more working memory resources. However, it is difficult to point which brain region is involved with which processes because one brain area is usually involved in multiple cognitive tasks\cite{brown2012common}. Moreover, Yarkoni\cite{yarkoni2011large} supported that claim by reviewing 3489 studies, which considered areas of human brain. Interestingly, activation in the same brain regions (dorsolateral prefrontal cortex, anterior insula and anterior cingulate cortex) was observed in one fifth of the studies. He used a machine learning algorithm and classified different studies into ones that assessed working memory, emotion and pain. It also, can be seen from the graphs that both working memory and emotion processing studies evoked activation in the PFC. Furthermore, individual differences in brain structure exist, especially in the PFC area\cite{thompson2001genetic}. In addition, gender differences in the brain structure are also observed\cite{cosgrove2007evolving}. 
 		
-		%	\begin{figure}[h]
-		%		\centering
-		%		\includegraphics[width=0.7\linewidth]{pfc-brain-areas}
-		%		\caption[PFC brain areas]{The PFC brain arreas. The illustration shows the physical location of the %dorsolateral cortex(blue color), the orbitofrontal cortex(green color) and the ventromedial cortex(red color) of the PFC. Also, the location of amygdala is illustrated with yellow color. The image is obtained from ...}
-		%		\label{fig:pfc-brain-areas}
-		%	\end{figure}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{../../../Desktop/Dissertation/Prefrontal1}
+			\caption[PFC brain areas]{The Prefrontal cortex functional areas. The numbers illustrated describe Broadmann areas. The picture shows the physical location of the dorsolateral cortex, the orbitofrontal cortex and the ventromedial cortex frontal cortices. fNIRS is placed between the dorsolateral and orbitofrontal cortex and measures Hbo activity with spatial resolution of 1cm.}
+			\label{fig:Prefrontal1}
+		\end{figure}
+		
 		There are also evidence that the PFC is involved with emotion processing and emotion regulation\cite{davidson2002anxiety,damasio1996somatic,balconi2012detection}. More specifically, the ventromedial prefrontal cortex is suggested to be involved in the representation of positive and negative emotional states, and the dorsolateral prefrontal cortex in the representation of the goal states towards these affective states are directed. Also, it is suggested that amygdala processes threat stimuli and processes negative affect of fear\cite{davidson2002anxiety}. Furthermore, the orbitofrontal cortex in the PFC has been linked to reward processing and reinforcement learning\cite{rolls2000orbitofrontal}, therefore playing a role in the assignment in emotional valence and intrinsic motivation.
 		
 		Davidson proposed the ``valence asymmetry hypothesis''\cite{davidson1992emotion} which states that positive affect which is linked to approach motivation is experienced when the left frontal cortical region has higher activation than the right. In contrast, negative affect which is linked to avoidance motivation is experienced when more activation is observed in the right frontal cortical region compared to the left. However, the valence model of emotions by Russell\cite{russell2003core} does not connect emotional valence with approach-avoidance motivation because the emotional state of anger. Consequently, we are interested in using fNIRS in order to measure the activations in left and right frontal hemispheres and interpret the results using the \textit{valence asymmetry hypothesis}. We will review more relative studies that used fNIRS to investigate the relationship between left and right hemispheres in the ``fNIRS and Emotional Valence'' subsection below. 
@@ -199,22 +210,33 @@ In this dissertation we evaluated a web interface using functional near infrared
 			\subsubsection{Laptop computer}
 			The experiment was executed on 15" laptop, HP probook 450 with screen resolution 1366x768. An external mouse was attached, which participants used during the process. The participant was presented with a screen with links to the three different videos and web forms. They were instructed by the researcher to manually start certain condition or video. 
 			\subsubsection{fNIRS}
-			\hl{(Picture of fNIRS and emitter-detector pairs)-can I use the one from the TAP paper?}\\
-			Hemodynamic data was recorded using the fNIRS300 device along with the COBI studio recording software developed by Biopac Systems inc. The device consists of a headband with 4 infrared LED emitters and 10 infrared detectors. They operated on 730nm and 850nm wavelengths. The combination between them was used to calculate 16 channels which can measure the associated Hbo and Hbr concentration in the PFC. The fNIRS device was placed on the forehead of the participants targeting the dorsolateral(BA 9/46) and orbitofrontal(BA 10) cortices.
-			
+			Hemodynamic data was recorded using the fNIRS300 device along with the COBI studio recording software developed by Biopac Systems inc. The device consists of a headband with 4 infrared LED emitters and 10 infrared detectors as it can be seen from Figure \ref{fig:source-detector-diagram}. 				
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{source-detector-diagram}
+				\caption[fNIRS source-detector diagram]{The spatial arrangement of the source-detector pars placed on participants forehead.}
+				\label{fig:source-detector-diagram}
+			\end{figure}
+			They operated on 730nm and 850nm wavelengths. The combination between them was used to calculate 16 channels which can measure the associated Hbo and Hbr concentration in the PFC. The fNIRS device was placed on the forehead of the participants targeting the dorsolateral(BA 9/46) and orbitofrontal(BA 10) cortices.
         \subsection{Materials}
 			\subsubsection{NASA-TLX}
 			The NASA-TLX\cite{nasatlx} is multidimensional subjective scale and it is used as a tool for assessing operator workload based weighted average of its six scales. The individual scales are presented in the following order: Mental demand, Physical demand, Temporal demand, Performance, Effort, and Frustration. We used the paper version of the questionnaire. The NASA-TLX measures were obtained from participants each time after completing one of the web form conditions. We did not follow the weighting procedure because it was time consuming, and instead we calculated the mean values of all individual subscales, which is suggested to be also, a valid measure\cite{hart2006nasa}, and we refer to this variable as ``total tlx''. Furthermore, each of the individual subscales was analysed independently.
 			\subsubsection{Self assessment manikin scale (SAM)}
 			Self assessment manikin\cite{bradley1994measuring} is a two dimensional scale for measuring the perceived emotional valence and arousal. We implemented the 5 point version of it. The participants were asked to fill the questionnaire after each video watched and each web form filled. First they state their emotional valence(negative or positive) by choosing between 1 and 5, where 5 is strongly perceived positive emotion, and 1 is considered strong negative emotion. Then, they fill the arousal level scale, where 1 indicates low perceived arousal or boredom, and 5 signifies high perceived arousal or high level of excitement. Each of the subscales is supported by image visualisations illustrating the affective state.
-			\subsubsection{Web form interface}
-			A total of 3 HTML/CSS variations of a standard web form for insurance claiming were produced. They were created to resemble an actual online insurance claim form. All of the conditions were divided on 3 main divisions: Personal information, Accident information and Summary of accident. The personal information division consisted of 5 individual forms, namely: First name, Last name, Date of birth, Email, You are(choose type of stakeholder, which was option field). The accident information consisted of one text input field(Today's date), four drop down lists(Number of passengers, Number of cars involved in the accident, Was anyone injured in this incident, and Was the accident caused by your fault), and a checkbox form for selecting which areas of the vehicle were damaged. Lastly, the third division consisted of a text-area, where participants had to write a description of the accident. The first version or the control version, referred as index1, consisted of the 3 division areas laid out in the order that was described here, namely, at the top of the page is the personal information, followed by accident information and lastly summary of accident. In the second web form, which we refer to as index2, the summary of accident area was placed on the top of the page, followed by personal and accident information, accordingly. The third condition, referred as index 3 had the same order as index1, however each division area was situated on separate page, and consisted of total 3 pages. Users navigated between the three pages using a submit button with the label``Next''. Also, on the top of the form below the heading there was a progress feedback text indicating of how many steps the web form consisted. For more detailed information, the three web form conditions can be viewed in \hl{Appendix number}
+			\subsubsection{Layout variations of web forms}
+			\begin{figure}
+			\centering
+			\includegraphics[width=0.86\linewidth]{layout-variations}
+			\caption[Sketch of layout variations of the web forms]{A sketch of the 3 layout variations of the web forms. The control condition index1 asked first for personal information, then accident information, and finally asks for description of the accident. With Index2 the description field was placed at the beginning. Index3 had 3 sections separated on 3 sequential pages.}
+			\label{fig:layout-variations}
+			\end{figure}
+			A total of 3 HTML/CSS variations of a standard web form for insurance claiming were produced. A generalized sketch is depicted in Figure \ref{fig:layout-variations}. They were created to resemble an actual online insurance claim form. All of the conditions were divided on 3 main divisions: Personal information, Accident information and Summary of accident. The personal information division consisted of 5 individual forms, namely: First name, Last name, Date of birth, Email, You are(choose type of stakeholder, which was option field). The accident information consisted of one text input field(Today's date), four drop down lists(Number of passengers, Number of cars involved in the accident, Was anyone injured in this incident, and Was the accident caused by your fault), and a checkbox form for selecting which areas of the vehicle were damaged. Lastly, the third division consisted of a text-area, where participants had to write a description of the accident. The first version or the control version, referred as index1, consisted of the 3 division areas laid out in the order that was described here, namely, at the top of the page is the personal information, followed by accident information and lastly summary of accident. In the second web form, which we refer to as index2, the summary of accident area was placed on the top of the page, followed by personal and accident information, accordingly. The third condition, referred as index 3 had the same order as index1, however each division area was situated on separate page, and consisted of total 3 pages. Users navigated between the three pages using a submit button with the label``Next''. Also, on the top of the form below the heading there was a progress feedback text indicating of how many steps the web form consisted. For more detailed information, the three web form conditions can be viewed in the attached zip file, that contains all the data.
 			\subsubsection{Video capture}
 			A video capture of the computer screen was recorded during the experiment using Fraps\cite{fraps}. The participants voice was recorded too. The timestamp of the beginning of the video recording was obtained, in order to be able to calculate duration of tasks, and their actual start and end time.
 			\subsubsection{Video clips of auto accidents}
-			Three video clips of automotive accidents were selected, in order to simulate the conditions before the filling of insurance claim. The video clips of the accidents were chosen to be lightweight avoiding any scenes of gore, injured bodies, or fatalities. All of the accidents happened in low speed. One of the clips has a duration of minute and a half, while the others were half a minute long. \hl{The three videos can be seen in...}
+			Three video clips of automotive accidents were selected, in order to simulate the conditions before the filling of insurance claim. The video clips of the accidents were chosen to be lightweight avoiding any scenes of gore, injured bodies, or fatalities. All of the accidents happened in low speed. One of the clips has a duration of minute and a half, while the others were half a minute long. The three videos can be seen in the attached zip file.
 		\subsection{Design}
-		The study used repeated measures within subjects design. The depended variable was the \hl{mental workload}, and the independent variable was the layout of the three web forms. The control condition was index1. Before the start of each web form, a video of road accident was played. The three variations of videos and the web forms were counterbalanced using latin square rotation, in order to avoid learning effects from the order of presentation of the video clips.
+		The study used repeated measures within subjects design. The depended variable was the mental workload, and the independent variable was the layout of the three web forms. The control condition was index1. Before the start of each web form, a video of road accident was played. The three variations of videos and the web forms were counterbalanced using Latin square rotation, in order to avoid learning effects from the order of presentation of the video clips.
 		\subsection{Procedure}
 		\begin{figure}[h]
 			\centering
@@ -224,7 +246,7 @@ In this dissertation we evaluated a web interface using functional near infrared
 		\end{figure}		
 		Participants followed the procedure illustrated by Figure\ref{fig:study-procedure}. First, participants were asked to read and sign information sheet and consent forms. Second, the fNIRS device was cleaned then equipped and started. Third, participants were briefed about the procedure of the experiment, and it was explained how to fill the subjective scales. Also, because of ethical considerations that the participant should not enter personal data in the web form, a artificial personal credentials were provided, that she should fill in the web forms. Fourth, after the video capture and the fNIRS device were started, participants were asked to relax and try not to think about anything, in order to record a baseline of the hemodynamic activity in the PFC while participants are at rest. Next, they are asked to open one of the three videos, depending on the counterbalancing table. After the video was finished, participants fill SAM subjective scale. Fifth, there was approximately 2 minute waiting period between the video and the web form filling task, so that participant's memory is not fresh. Finally, after participant has completed the web form, the SAM and then the NASA-TLX scales are given to be completed, accordingly. This process was repeated three times, following the within subjects experimental design with counter balancing between the videos and the web forms. Because fNIRS device used one computer and the experiment was conducted on different computer, before each experiment, the clocks between the two computers were synchronized. Also, timestamps using the Cobi Studio software manual markers were created in the beginning and end of each condition and video. 
 		\subsection{Data Analysis}
-		The fNIRS data was analyzed with fnirsoft\cite{ayazfunctional}. Data from N=1 participant was excluded from the analysis because of ``von willebraud disease'' which is known to alter the signal. Also, data from another N=8 participants was excluded due to the fNIRS apparatus not able to detect signal from the channels for those participants. When calculating the correlation between fNIRS data and other measurements we excluded the data from these 9 problematic participants from the subjective or performance measures accordingly.
+		The fNIRS data was analysed with fnirsoft\cite{ayazfunctional}. Data from N=1 participant was excluded from the analysis because of ``von willebraud disease'' which is known to alter the signal. Also, data from another N=8 participants was excluded due to the fNIRS apparatus not able to detect signal from the channels for those participants. When calculating the correlation between fNIRS data and other measurements we excluded the data from these 9 problematic participants from the subjective or performance measures accordingly.
 			\subsubsection{Signal acquisition}
 			The fNIRS headband was placed on participants forehead, targeting the prefrontal cortex. The emitter-detector separation was 2.5cm and the sampling rate was 2Hz.
 			\subsubsection{Preprocessing}
@@ -233,10 +255,10 @@ In this dissertation we evaluated a web interface using functional near infrared
 			Then, the NIRS signal was processed with modified Beer-Lambert law\cite{cope1988system}, in order to calculate oxygenated, and deoxygenated hemoglobin values.
 			Finally, to remove motion artefacts, the correlation based signal improvement(CBSI)\cite{cui2010functional} method was applied to the data.
 			\subsubsection{Feature Extraction/selection}
-				\paragraph{fNIRS mean Hbo, Hbr, and Hbt data}\leavevmode\\
-				After data preprocessing the mean, and standard deviation for Hbo, Hbr and Hbt data was calculated from all channels, in order to infer about activation in the participants PFC. Hbo has been suggested to positively correlate to mental workload, in contrast to Hbr which is proposed to have negative correlation to mental workload.
-				\paragraph{fNIRS mean differences}\leavevmode\\
-				To calculate the left versus right hemisphere activation from the fNIRS we subtracted the mean data from channels 1-8, which are situated at the left side of the participants PFC, from the mean data of channels 9-16 which are on the right side of the PFC. That gave us the difference value between the left and right hemisphere. It indicates that the higher the mean difference value the more positive affect or affordance motivation the web form elicited. And the opposite pattern: the lower the mean difference the more negative affect or avoidance motivation the participant experience according to the valence asymmetry hypothesis.	
+				\textbf{fNIRS mean Hbo, Hbr, and Hbt data}\leavevmode\\
+					After data preprocessing the mean, and standard deviation for Hbo, Hbr and Hbt data was calculated from all channels, in order to infer about activation in the participants PFC. Hbo has been suggested to positively correlate to mental workload, in contrast to Hbr which is proposed to have negative correlation to mental workload.\\
+				\textbf{fNIRS mean differences}\leavevmode\\
+					To calculate the left versus right hemisphere activation from the fNIRS we subtracted the mean data from channels 1-8, which are situated at the left side of the participants PFC, from the mean data of channels 9-16 which are on the right side of the PFC. That gave us the difference value between the left and right hemisphere. It indicates that the higher the mean difference value the more positive affect or affordance motivation the web form elicited. And the opposite pattern: the lower the mean difference the more negative affect or avoidance motivation the participant experience according to the valence asymmetry hypothesis.	
 	\section{Results}
 		\subsection{Mental Workload}
 			\subsubsection{fNIRS data}
@@ -249,6 +271,20 @@ In this dissertation we evaluated a web interface using functional near infrared
 			\end{figure}
 			After conducting t-tests between index1 and index3 there was found a marginal statistical difference p=0.054. Which means that the measured Hbo between the two versions has a 94.6\% statistical probability that the difference are not caused by random sampling error. However, we fail to reject the first null hypothesis. This means that we could not find a statistically significant interaction, however we were very close to statistical significance, as p=0.054 and we can assume we have marginal statistical significance.
 	
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{p2-index3-brain-view-left-activation}
+				\caption[Brain view of Participant's 2 Hbo activation during web form filling of index3]{Brain view of Participant's 2(P2) Hbo activation during web form filling of index3. It can be noted more hemodynamic activation in the left hemisphere. P2 rated its emotional valence as positive (4/5).}
+				\label{fig:p2-index3-brain-view-left-activation}
+			\end{figure}
+			
+			
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.7\linewidth]{p2-video3-brain-view}
+				\caption[Brain view of Participant 2 while viewing video of road accident(video3)]{Brain view of Participant 2 while viewing video of road accident(video3). More arousal can be noted and more right hemisphere activation, which is expected as automotive accidents increase arrousal and emotional state becomes negative.}
+				\label{fig:p2-video3-brain-view}
+			\end{figure}
 			Also, no statistical significance was found when comparing the means of Hbr between the three conditions $F(2,20)=2.044, p<.156,$ partial $\eta^{2}=.170$ where index2 had the highest Hbr mean 0.05 (SD = 0.85), index1 with -0.07 (SD = 0.96) and index3 with the lowest Hbr mean -0.36 (SD = 1.43). Which, accordingly negatively correlated to Hbo data, and again indicated that index3 evoke the highest workload than the other conditions. Furthermore, a repeated measures ANOVA test was conducted to elicit significant statistical differences between mean Hbt between the three web forms, however no statistical significance was found $F(2,20)=0.685, p<.516,$ partial $\eta^{2}=.064$ where index2 had the highest Hbt mean -0.08 (SD = 0.49), index3 with -0.13 (SD = 0.58) and index1 with the lowest mean Hbt -0.19 (SD = 0.49). The results indicate that Hbo was more responsive for this experiment and gave us higher significance between condition compared to Hbr and Hbt. 
 			No correlation was found between the fNIRS mean data and any of the NASA-TLX scales, including the calculated total tlx. As a result, we fail to reject the second null hypothesis which states there is no difference between objective data from fNIRS and subjective data from NASA-TLX.
 			\subsubsection{NASA-TLX}
@@ -327,7 +363,14 @@ In this dissertation we evaluated a web interface using functional near infrared
 			It can be seen from Figure \ref{fig:mean-task-completion-time} that the mean time to complete index2 was the lowest 214.88 (SD = 63.81) increasing to 228.79 (SD = 65.19) for index1 and to 231.60 (SD = 83.33) for index3. However, there was no significant statistical difference in time to complete between the 3 web forms $F(2,38)=0.556, p<.578,$ partial $\eta^{2}=.028$, as assessed by one-way repeated measures ANOVA. The results indicate that the performance was lowest when participants completed index3, slightly higher for index1 and the highest for index2.
 			Also, the time to complete index2 and index3 had a strong positive correlation with perceived effort(NASA-TLX) for index2 and index3: $r(18)=0.702, p=0.016$ and $r(18)=0.634, p=0.036$. However, time to complete index1 does not correlate to perceived effort of index1 $r(18)=0.216, p=0.524$. This suggests that when participants perceived more effort it took them more time to complete the web form.
 			\subsubsection{User preferences from the short-interview question}
-			After the end of the experiment participants were asked which of the three web forms they prefer the most. The bulk of them preferred index3 and index1 with 10 and 9 votes respectively compared to index2 which was only preferred by 3 participants. The given answer were transcribed as can be seen in \hl{Appendix number}. 
+
+			After the end of the experiment participants were asked which of the three web forms they prefer the most which is depicted in Figure \ref{fig:user-preferences}. The bulk of them preferred index3 and index1 with 10 and 9 votes respectively compared to index2 which was only preferred by 3 participants. user-prefe The given answer were transcribed as can be seen in Appendix \ref{App:AppendixD}.
+				\begin{figure}[h]
+					\centering
+					\includegraphics[width=0.7\linewidth]{user-preferences}
+					\caption[Participant preferences]{At the end of the experiements participants were asked which of the 3 web forms they preferred the most. Th sum of the amswers is depicted in a bar chart.}
+					\label{fig:user-preferences}
+				\end{figure}			 
 
 \chapter{Discussion}
 	\section{Comparison between the three web forms}
@@ -396,5 +439,134 @@ In this dissertation we evaluated a web interface using functional near infrared
 	\bibliographystyle{plain}
 	\bibliography{exmplref}
 	\addcontentsline{toc}{chapter}{Appendix}
-\chapter*{Appendix}
+\chapter*{Appendix A} \label{App:AppendixA}
+\includepdf[pages={1-3}]{Appendicies/ConsentForm.pdf}
+\newpage
+\chapter*{Appendix B} \label{App:AppendixB}
+\includepdf[pages={1-2}]{Appendicies/InformationSheet.pdf}
+\newpage
+\chapter*{Appendix C} \label{App:AppendixC}
+\includepdf[pages={2-3}]{Appendicies/NASAandSAM.pdf}
+\newpage
+\chapter*{Appendix D} \label{App:AppendixD}
+\includepdf[pages={1-3}]{Appendicies/Comments.pdf}
+\newpage
+\chapter*{Appendix E} \label{App:AppendixE}
+\textbf{Participant information}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/participant-info}
+\end{figure}
+\newpage
+\chapter*{Appendix F} \label{App:AppendixF}
+	\textbf{Mean Hbo data between the conditions}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbo-index}
+	\end{figure}
+	\\
+	\textbf{Mean Hbr data between the conditions}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbr-index}
+	\end{figure}	
+	\newpage
+	\textbf{Mean Hbt data between the conditions}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbt-index}
+	\end{figure}	
+
+\newpage
+\chapter*{Appendix G} \label{App:AppendixG}
+	\textbf{Mean Hbo differences between left and right hemisphere}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbo-valence}
+	\end{figure}
+	\\
+	\textbf{Mean Hbr differences between left and right hemisphere}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbr-valence}
+	\end{figure}	
+	\newpage
+	\textbf{Mean Hbt differences between left and right hemisphere}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Appendicies/hbt-valence}
+	\end{figure}	
+\newpage
+
+
+\chapter*{Appendix H} \label{App:AppendixH}
+\textbf{Mean Hbo statistical tests}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/hbo-sphreicity-index123}
+\end{figure}
+\\
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/hbo-anova-index123}
+\end{figure}
+\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Appendicies/stats/hbo-descriptive-index123}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/hbo-pariwise-index123}
+\end{figure}
+\newpage
+\textbf{Sam subjective arosal}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-arousal-sphericity-index123}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-arousal-anova-index123}
+\end{figure}
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-arousal-pairwise-index123}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Appendicies/stats/SAM-arousal-descriptive-index123}
+\end{figure}
+
+\textbf{Sam subjective emotional valence}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Appendicies/stats/SAM-evalence-descriptive-index123}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-evalence-pairwise-index123}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-evalence-sphericity-index123}
+\end{figure}
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{Appendicies/stats/SAM-evalence-anova-index123}
+\end{figure}
+
+\chapter*{Appendix I} \label{App:AppendixI}
+\textbf{Correlation between mental demand from NASA-TLX and time to complete the task}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{Appendicies/stats/mental-demand-vs-time-corr}
+\end{figure}
+
 \end{document}
